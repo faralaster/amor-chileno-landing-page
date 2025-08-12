@@ -8,15 +8,15 @@ export function HeroSection() {
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:gap-16 items-center">
           <div className="flex flex-col justify-center space-y-4 text-center lg:text-left">
             <h1 className="text-4xl font-bold font-headline tracking-tighter text-primary-foreground sm:text-5xl md:text-6xl lg:text-7xl text-shadow-lg text-white">
-              Descubra como transformar o Morango do Amor em um negócio lucrativo no Chile
+              Descubra como transformar o Morango do Amor em um negócio lucrativo
             </h1>
             <p className="max-w-xl mx-auto lg:mx-0 text-lg text-white/90 md:text-xl">
-              Aprenda técnicas, receitas e segredos para vender mais e ganhar clientes fiéis com o nosso guia completo.
+              Aprenda técnicas, receitas e segredos para vender mais e conquistar clientes fiéis com nosso guia completo.
             </p>
             <div className="w-full flex justify-center lg:justify-start pt-4">
               <a href="#offer">
                 <Button size="lg" className="h-14 text-lg px-10 shadow-lg transform hover:scale-105 transition-transform duration-300">
-                  Quiero Garantizar Mi Guía Ahora
+                  Quero Garantir Meu Guia Agora
                 </Button>
               </a>
             </div>
@@ -24,7 +24,7 @@ export function HeroSection() {
           <div className="flex justify-center">
             <Image
               src="https://placehold.co/500x550.png"
-              alt="eBook Guía Rentable para el Amor por la Fresa Chilena"
+              alt="eBook Guia Lucrativo para o Amor por Morango"
               width={500}
               height={550}
               className="rounded-xl shadow-2xl transform lg:rotate-3 transition-transform duration-500 hover:rotate-0 hover:scale-105"

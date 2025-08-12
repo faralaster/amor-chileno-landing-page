@@ -8,20 +8,20 @@ export function ProductSection() {
         <div className="grid gap-10 md:grid-cols-2 md:gap-16 items-center">
           <div className="space-y-4">
             <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm font-medium">
-              La Guía Definitiva
+              O Guia Definitivo
             </div>
             <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl">
-              ¿Qué es la "Guía Rentable para el Amor por la Fresa Chilena"?
+              O que é o "Guia Lucrativo para o Amor por Morango"?
             </h2>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
-              Es un eBook completo en formato PDF que te enseña, paso a paso, todo lo que necesitas saber para crear y vender morangos do amor irresistibles. Desde las recetas secretas hasta las estrategias de venta más efectivas, esta guía es tu atajo hacia el éxito.
+              É um eBook completo em formato PDF que ensina, passo a passo, tudo o que você precisa saber para criar e vender morangos do amor irresistíveis. Das receitas secretas às estratégias de venda mais eficazes, este guia é seu atalho para o sucesso.
             </p>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
-              Descubrirás cómo elegir los mejores ingredientes, decorar de forma profesional, calcular tus costos y precios, y promocionar tu negocio para atraer a una multitud de clientes.
+              Você descobrirá como escolher os melhores ingredientes, decorar de forma profissional, calcular seus custos e preços, e promover seu negócio para atrair uma multidão de clientes.
             </p>
             <div className="flex gap-4 pt-4">
                <a href="#offer">
-                <Button size="lg">Comprar Ahora</Button>
+                <Button size="lg">Comprar Agora</Button>
                </a>
             </div>
           </div>
@@ -30,17 +30,17 @@ export function ProductSection() {
               src="https://placehold.co/600x450.png"
               width="600"
               height="450"
-              alt="Mockup del eBook y los bonos"
+              alt="Mockup do eBook e dos bônus"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
               data-ai-hint="ebook mockup spread"
             />
             <div className="text-center p-6 bg-muted rounded-xl w-full">
-                <p className="text-lg font-medium text-muted-foreground">Oferta de Lanzamiento</p>
+                <p className="text-lg font-medium text-muted-foreground">Oferta de Lançamento</p>
                 <p className="text-4xl font-bold font-headline text-primary">
-                    <span className="text-2xl text-destructive line-through decoration-2 mr-2">49.990</span>
-                    9.990 CLP
+                    <span className="text-2xl text-destructive line-through decoration-2 mr-2">R$97,00</span>
+                    R$19,90
                 </p>
-                <p className="font-semibold text-green-600">¡Ahorras 40.000 CLP!</p>
+                <p className="font-semibold text-green-600">Você economiza R$77,10!</p>
             </div>
           </div>
         </div>

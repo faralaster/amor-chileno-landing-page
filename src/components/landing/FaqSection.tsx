@@ -7,20 +7,20 @@ import {
 
 const faqs = [
   {
-    question: '¿Cómo recibo el eBook?',
-    answer: 'El acceso al eBook y a todos los bonos es 100% digital. Recibirás un correo electrónico con un enlace para descargar todo el material inmediatamente después de la confirmación del pago.',
+    question: 'Como recebo o eBook?',
+    answer: 'O acesso ao eBook e a todos os bônus é 100% digital. Você receberá um e-mail com um link para baixar todo o material imediatamente após a confirmação do pagamento.',
   },
   {
-    question: '¿Necesito tener experiencia para empezar?',
-    answer: '¡Absolutamente no! Nuestra guía está diseñada tanto para principiantes como para aquellos que ya tienen alguna experiencia. Te llevamos de la mano desde lo más básico hasta las técnicas más avanzadas.',
+    question: 'Preciso ter experiência para começar?',
+    answer: 'Absolutamente não! Nosso guia foi projetado tanto para iniciantes quanto para aqueles que já têm alguma experiência. Nós o guiamos passo a passo, do básico às técnicas mais avançadas.',
   },
   {
-    question: '¿Cuánto tiempo lleva hacer el morango do amor?',
-    answer: 'El tiempo de preparación puede variar, pero en promedio, puedes tener una tanda lista en menos de 1 hora. La guía incluye consejos para optimizar tu tiempo de producción.',
+    question: 'Quanto tempo leva para fazer o morango do amor?',
+    answer: 'O tempo de preparo pode variar, mas, em média, você pode ter uma remessa pronta em menos de 1 hora. O guia inclui dicas para otimizar seu tempo de produção.',
   },
   {
-    question: '¿Necesito equipos caros?',
-    answer: 'No, para nada. Puedes comenzar con utensilios básicos de cocina que probablemente ya tienes en casa. La guía incluye una lista de todo lo que necesitas, con opciones económicas.',
+    question: 'Preciso de equipamentos caros?',
+    answer: 'Não, de forma alguma. Você pode começar com utensílios de cozinha básicos que provavelmente já tem em casa. O guia inclui uma lista de tudo que você precisa, com opções econômicas.',
   },
 ];
 
@@ -30,10 +30,10 @@ export function FaqSection() {
       <div className="container px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl">
-            Preguntas Frecuentes
+            Perguntas Frequentes
             </h2>
             <p className="mt-4 text-muted-foreground md:text-xl/relaxed">
-            ¿Aún tienes dudas? Aquí respondemos las preguntas más comunes.
+            Ainda tem dúvidas? Aqui respondemos às perguntas mais comuns.
             </p>
         </div>
         <div className="mx-auto max-w-3xl pt-10">

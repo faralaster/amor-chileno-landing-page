@@ -17,13 +17,13 @@ export function GuaranteeSection() {
           </div>
           <div className="space-y-4 text-center md:text-left">
             <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl">
-              ¡Tu compra es 100% segura!
+              Sua compra é 100% segura!
             </h2>
             <p className="text-2xl font-semibold text-primary">
-              Garantía Incondicional de 7 Días
+              Garantia Incondicional de 7 Dias
             </p>
             <p className="text-muted-foreground md:text-lg">
-              Tienes 7 días completos para explorar la guía. Si por alguna razón sientes que no es para ti, simplemente envíanos un correo electrónico y te devolveremos el 100% de tu dinero. Sin preguntas, sin complicaciones. ¡Riesgo cero!
+              Você tem 7 dias completos para explorar o guia. Se por qualquer motivo sentir que não é para você, basta nos enviar um e-mail e devolveremos 100% do seu dinheiro. Sem perguntas, sem complicações. Risco zero!
             </p>
           </div>
         </div>

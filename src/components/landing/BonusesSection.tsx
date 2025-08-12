@@ -5,8 +5,8 @@ import { Badge } from '@/components/ui/badge';
 const bonuses = [
   {
     title: 'Bônus 1: Checklist da Primeira Venda',
-    description: 'Un paso a paso para que tu primer día de ventas sea un éxito total.',
-    value: '15.000 CLP',
+    description: 'Um passo a passo para que seu primeiro dia de vendas seja um sucesso total.',
+    value: 'R$47',
     image: {
       src: 'https://placehold.co/400x300.png',
       hint: 'checklist document',
@@ -14,8 +14,8 @@ const bonuses = [
   },
   {
     title: 'Bônus 2: Sugestões de Embalagens',
-    description: 'Ideas creativas para presentar tus productos de forma bonita y económica.',
-    value: '10.000 CLP',
+    description: 'Ideias criativas para apresentar seus produtos de forma bonita e econômica.',
+    value: 'R$27',
     image: {
       src: 'https://placehold.co/400x300.png',
       hint: 'gift packaging',
@@ -23,8 +23,8 @@ const bonuses = [
   },
   {
     title: 'Bônus 3: Estratégia para Vender na Rua',
-    description: 'Los secretos para elegir el mejor punto y atraer clientes en cualquier lugar.',
-    value: '20.000 CLP',
+    description: 'Os segredos para escolher o melhor ponto e atrair clientes em qualquer lugar.',
+    value: 'R$67',
     image: {
       src: 'https://placehold.co/400x300.png',
       hint: 'street market',
@@ -39,10 +39,10 @@ export function BonusesSection() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">
-              Y eso no es todo, ¡recibe 3 bonos exclusivos!
+              E não é só isso, receba 3 bônus exclusivos!
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Al comprar la guía hoy, también obtienes acceso inmediato a estos materiales extra sin costo alguno.
+              Ao comprar o guia hoje, você também obtém acesso imediato a estes materiais extras sem custo algum.
             </p>
           </div>
         </div>
@@ -71,7 +71,7 @@ export function BonusesSection() {
                     {bonus.value}
                   </span>
                 </div>
-                <Badge variant="destructive" className="text-lg font-bold">GRATIS</Badge>
+                <Badge variant="destructive" className="text-lg font-bold">GRÁTIS</Badge>
               </CardFooter>
             </Card>
           ))}

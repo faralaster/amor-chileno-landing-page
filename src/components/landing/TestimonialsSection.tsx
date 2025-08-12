@@ -10,40 +10,40 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 const testimonials = [
   {
-    name: 'Javiera Rojas',
-    location: 'Santiago, Chile',
+    name: 'Júlia Martins',
+    location: 'São Paulo, Brasil',
     image: {
       src: 'https://placehold.co/100x100.png',
       hint: 'happy woman',
     },
-    comment: '¡La guía es increíble! Empecé a vender en mi condominio y ya recuperé la inversión en la primera semana. ¡Las recetas son un éxito!',
+    comment: 'O guia é incrível! Comecei a vender no meu condomínio e já recuperei o investimento na primeira semana. As receitas são um sucesso!',
   },
   {
-    name: 'Matías González',
-    location: 'Viña del Mar, Chile',
+    name: 'Marcos Oliveira',
+    location: 'Rio de Janeiro, Brasil',
     image: {
       src: 'https://placehold.co/100x100.png',
       hint: 'smiling man',
     },
-    comment: 'No tenía idea de cómo empezar. El checklist y las estrategias para vender en la calle fueron justo lo que necesitaba. ¡Recomendado!',
+    comment: 'Eu não tinha ideia de como começar. O checklist e as estratégias para vender na rua foram exatamente o que eu precisava. Recomendado!',
   },
   {
-    name: 'Camila Soto',
-    location: 'Concepción, Chile',
+    name: 'Carla Souza',
+    location: 'Belo Horizonte, Brasil',
     image: {
       src: 'https://placehold.co/100x100.png',
       hint: 'happy person',
     },
-    comment: 'Pensé que sería difícil, pero el paso a paso es muy claro. Mis morangos ahora se ven profesionales y se venden súper rápido.',
+    comment: 'Pensei que seria difícil, mas o passo a passo é muito claro. Meus morangos agora parecem profissionais e vendem super rápido.',
   },
   {
-    name: 'Benjamín Silva',
-    location: 'Antofagasta, Chile',
+    name: 'Bruno Lima',
+    location: 'Salvador, Brasil',
     image: {
       src: 'https://placehold.co/100x100.png',
       hint: 'smiling person',
     },
-    comment: 'El mejor bonus es el de las embalagens. Mis clientes siempre comentan lo lindas que son mis presentaciones. ¡Gracias!',
+    comment: 'O melhor bônus é o das embalagens. Meus clientes sempre comentam como minhas apresentações são lindas. Obrigado!',
   },
 ];
 
@@ -53,13 +53,13 @@ export function TestimonialsSection() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary font-medium">
-                Prueba Social
+                Prova Social
             </div>
             <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-5xl">
-            Lo que dicen nuestros emprendedores
+            O que dizem nossos empreendedores
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Personas como tú ya están teniendo éxito con nuestro método.
+            Pessoas como você já estão tendo sucesso com nosso método.
             </p>
         </div>
         <div className="py-12">
