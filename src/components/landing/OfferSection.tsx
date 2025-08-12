@@ -4,17 +4,18 @@ import { Progress } from '@/components/ui/progress';
 import { CheckCircle } from 'lucide-react';
 
 const completePackageIncludes = [
-  "'Sabores Coreanos Adaptados'",
-  '20 Receitas Coreanas (R$47,90)',
-  '16 Sobremesas Coreanas para Fãs de Doramas (R$27,00)',
-  '17 Receitas de Bebidas Coreanas Tradicionais (R$19,00)',
-  'Destravando o Seu Coreano (R$37,00)',
-  'Segredos da Cozinha Coreana (R$27,90)',
-  'Sua Jornada Inesquecível Por Seul (R$19,00)',
+  'Guia Lucrativo do morango do Amor Chilena',
+  'Vídeo Aula Exclusiva (preparo, segredos, diferenciais)',
+  '🎁 Bônus inclusos:',
+  'BÔNUS 1 – Checklist da Primeira Venda',
+  'BÔNUS 2 – Sugestão de Embalagem Bonita e Barata',
+  'BÔNUS 3 – Estratégia para Vender na Rua',
+  'BÔNUS 4 – Como Calcular o meu Lucro',
+  'BÔNUS 5 – Checklist de Erros Comuns e Como Evitar',
+  'BÔNUS 6 – Ideias de Promoções',
+  'BÔNUS 7 – Guia Rápido de Conservação e Transporte',
+  'Garantia de 30 dias',
   'Acesso vitalício',
-  'Acesso a atualizações futuras',
-  'Suporte individual para sua jornada',
-  'Garantia de 7 dias',
 ];
 
 const simplePackageIncludes = [
@@ -51,8 +52,8 @@ export function OfferSection() {
             <CardContent className="space-y-4">
               <ul className="grid gap-3 text-left text-muted-foreground">
                 {completePackageIncludes.map((item) => (
-                  <li key={item} className="flex items-center gap-3">
-                    <CheckCircle className="h-5 w-5 text-pink-500" />
+                  <li key={item} className="flex items-start gap-3">
+                    <CheckCircle className="h-5 w-5 text-pink-500 mt-1 shrink-0" />
                     <span>{item}</span>
                   </li>
                 ))}
