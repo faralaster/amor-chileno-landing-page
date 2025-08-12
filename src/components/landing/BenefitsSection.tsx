@@ -27,31 +27,33 @@ const benefits = [
 export function BenefitsSection() {
   return (
     <section id="benefits" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
-      <div className="flex flex-col items-center justify-center space-y-4 text-center">
-        <div className="space-y-2">
-          <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary font-medium">
-            Benefícios Chave
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center">
+          <div className="space-y-2">
+            <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary font-medium">
+              Benefícios Chave
+            </div>
+            <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">
+              Tudo o que você precisa para ter sucesso
+            </h2>
+            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              Nosso guia está repleto de informações práticas para que você comece a ganhar dinheiro rapidamente.
+            </p>
           </div>
-          <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">
-            Tudo o que você precisa para ter sucesso
-          </h2>
-          <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Nosso guia está repleto de informações práticas para que você comece a ganhar dinheiro rapidamente.
-          </p>
         </div>
-      </div>
-      <div className="mx-auto grid max-w-5xl items-start gap-12 py-12 lg:grid-cols-2 lg:gap-16">
-        {benefits.map((benefit) => (
-          <div key={benefit.title} className="flex items-start gap-4">
-            <div className="bg-primary text-primary-foreground rounded-full p-3">
-              <benefit.icon className="h-6 w-6" />
+        <div className="mx-auto grid max-w-5xl items-start gap-12 py-12 lg:grid-cols-2 lg:gap-16">
+          {benefits.map((benefit) => (
+            <div key={benefit.title} className="flex items-start gap-4">
+              <div className="bg-primary text-primary-foreground rounded-full p-3">
+                <benefit.icon className="h-6 w-6" />
+              </div>
+              <div className="grid gap-1">
+                <h3 className="text-lg font-bold font-headline">{benefit.title}</h3>
+                <p className="text-sm text-muted-foreground">{benefit.description}</p>
+              </div>
             </div>
-            <div className="grid gap-1">
-              <h3 className="text-lg font-bold font-headline">{benefit.title}</h3>
-              <p className="text-sm text-muted-foreground">{benefit.description}</p>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );

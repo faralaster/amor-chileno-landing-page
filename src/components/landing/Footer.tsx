@@ -2,7 +2,7 @@ import { Mail, Phone } from 'lucide-react';
 
 export function Footer() {
   return (
-    <footer className="bg-slate-900 text-slate-200 py-8 -mx-4 md:-mx-6">
+    <footer className="bg-slate-900 text-slate-200 py-8">
       <div className="container mx-auto px-4 md:px-6 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
         <div className="mb-4 md:mb-0">
             <h3 className="text-xl font-bold font-headline text-white">Amor Chileno</h3>
