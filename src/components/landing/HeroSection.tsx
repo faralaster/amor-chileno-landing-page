@@ -7,10 +7,10 @@ export function HeroSection() {
       <div className="container mx-auto px-4 md:px-6 flex flex-col items-center justify-center min-h-[90vh] text-center py-12">
         <div className="flex flex-col items-center space-y-6">
           <div className="space-y-3 text-center">
-            <h1 className="text-2xl font-headline tracking-tighter text-white sm:text-3xl md:text-4xl lg:text-5xl uppercase" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.3)' }}>
+            <h1 className="text-xl font-headline tracking-tighter text-white sm:text-2xl md:text-3xl lg:text-4xl uppercase max-w-5xl" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.3)' }}>
               O Doce Que <span className="font-extrabold text-yellow-300">Viralizou no Brasil</span> Recentemente e Pode Fazer Você Estar Ganhando <span className="font-extrabold text-yellow-300">um Salário Mínimo Por Semana</span> <span className="font-extrabold text-yellow-300">No Chile</span>
             </h1>
-            <p className="max-w-4xl mx-auto text-sm text-white/95 md:text-base">
+            <p className="max-w-4xl mx-auto text-xs text-white/95 md:text-sm">
               Descubra a receita secreta do <i className="font-semibold">'Morango do Amor'</i> que está fazendo brasileiras ganharem milhares por semana + o método exato para ser a primeira a vender no Chile e dominar este mercado inexplorado antes que todos descubram
             </p>
           </div>
