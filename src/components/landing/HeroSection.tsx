@@ -3,8 +3,8 @@ import { Button } from '@/components/ui/button';
 
 export function HeroSection() {
   return (
-    <section id="hero" className="w-full bg-gradient-to-br from-red-500 via-pink-500 to-rose-400">
-      <div className="container mx-auto px-4 md:px-6 flex flex-col items-center justify-center min-h-[90vh] text-center py-12">
+    <section id="hero" className="w-full bg-gradient-to-br from-red-500 via-pink-500 to-rose-400 -mx-4 md:-mx-6">
+      <div className="flex flex-col items-center justify-center min-h-[90vh] text-center py-12">
         <div className="flex flex-col items-center space-y-6">
           <div className="space-y-3 text-center w-full">
             <h1 className="text-4xl font-headline tracking-tighter text-white sm:text-5xl md:text-6xl lg:text-7xl uppercase" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.3)' }}>

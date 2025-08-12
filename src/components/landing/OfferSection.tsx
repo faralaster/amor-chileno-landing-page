@@ -17,8 +17,8 @@ const offerIncludes = [
 
 export function OfferSection() {
   return (
-    <section id="offer" className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-secondary to-accent">
-      <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
+    <section id="offer" className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-secondary to-accent -mx-4 md:-mx-6">
+      <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6">
         <div className="space-y-3">
             <h2 className="text-4xl font-bold font-headline tracking-tighter text-white sm:text-5xl md:text-6xl">
             Oferta especial por tempo limitado!
