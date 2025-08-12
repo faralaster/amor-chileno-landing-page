@@ -57,9 +57,9 @@ export function OfferSection() {
                   </li>
                 ))}
               </ul>
-              <Button size="lg" className="w-full h-12 text-lg font-bold bg-red-600 hover:bg-red-700 text-white">
+              <div className="w-full h-12 flex items-center justify-center rounded-md text-lg font-bold bg-red-600 text-white">
                 ÚLTIMAS VAGAS COM DESCONTO!
-              </Button>
+              </div>
               <div className="space-y-2 text-center">
                 <p className="text-sm font-medium">Vagas Preenchidas: <span className="float-right">95%</span></p>
                 <Progress value={95} className="h-4 bg-green-200" />
