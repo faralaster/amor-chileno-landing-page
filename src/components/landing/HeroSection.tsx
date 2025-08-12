@@ -8,7 +8,7 @@ export function HeroSection() {
         <div className="flex flex-col items-center justify-center space-y-6 text-center">
           <div className="space-y-4">
             <h1 className="text-4xl font-bold font-headline tracking-tighter text-white sm:text-5xl md:text-6xl lg:text-7xl" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.3)' }}>
-              O Doce Que Viralizou No Brasil Recentemente e Pode Fazer Você Estar Ganhando 1 Salário Mínimo Por Semana No Chile
+              O Doce Que Viralizou No Brasil Recentemente e Pode Fazer Você Estar Ganhando um Salário Mínimo Por Semana No Chile
             </h1>
             <p className="max-w-3xl text-lg text-white/95 md:text-xl">
               Descubra a receita secreta do 'Morango do Amor' que está fazendo brasileiras ganharem milhares por semana + o método exato para ser a primeira a vender no Chile e dominar este mercado inexplorado antes que todos descubram
