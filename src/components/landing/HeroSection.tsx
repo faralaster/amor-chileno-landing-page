@@ -8,10 +8,10 @@ export function HeroSection() {
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:gap-16 items-center">
           <div className="flex flex-col justify-center space-y-4 text-center lg:text-left">
             <h1 className="text-4xl font-bold font-headline tracking-tighter text-primary-foreground sm:text-5xl md:text-6xl lg:text-7xl text-shadow-lg text-white">
-              Descubra como transformar o Morango do Amor em um negócio lucrativo
+              O Doce Que Viralizou No Brasil Recentemente e Pode Fazer Você Estar Ganhando 1 Salário Mínimo Por Semana No Chile
             </h1>
             <p className="max-w-xl mx-auto lg:mx-0 text-lg text-white/90 md:text-xl">
-              Aprenda técnicas, receitas e segredos para vender mais e conquistar clientes fiéis com nosso guia completo.
+              Descubra a receita secreta do 'Morango do Amor' que está fazendo brasileiras ganharem milhares por semana + o método exato para ser a primeira a vender no Chile e dominar este mercado inexplorado antes que todos descubram
             </p>
             <div className="w-full flex justify-center lg:justify-start pt-4">
               <a href="#offer">
