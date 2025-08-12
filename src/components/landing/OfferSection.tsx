@@ -5,8 +5,12 @@ import { CheckCircle } from 'lucide-react';
 const offerIncludes = [
   'Guia "Amor por Morango" (PDF)',
   'Bônus 1: Checklist da Primeira Venda',
-  'Bônus 2: Sugestões de Embalagens',
+  'Bônus 2: Sugestão de Embalagem',
   'Bônus 3: Estratégia para Vender na Rua',
+  'Bônus 4: Mini Calculadora de Lucro',
+  'Bônus 5: Checklist de Erros Comuns',
+  'Bônus 6: Ideias de Promoções',
+  'Bônus 7: Guia de Conservação',
   'Acesso imediato e vitalício',
   'Suporte exclusivo por WhatsApp',
 ];
