@@ -16,11 +16,11 @@ export function HeroSection() {
           </div>
           <div className="py-4">
                 <Image
-                src="https://placehold.co/550x750.png"
+                src="https://placehold.co/700x430.png"
                 alt="eBook Guia Lucrativo para o Amor por Morango"
-                width={550}
-                height={750}
-                className="shadow-2xl aspect-[550/750] object-cover border-8 border-white/50 rounded-xl"
+                width={700}
+                height={430}
+                className="shadow-2xl aspect-[700/430] object-cover border-8 border-white/50 rounded-xl"
                 priority
                 data-ai-hint="strawberry chocolate dessert"
                 />
