@@ -6,7 +6,6 @@ import { CheckCircle } from 'lucide-react';
 const completePackageIncludes = [
   'Guia Lucrativo do morango do Amor Chilena',
   'Vídeo Aula Exclusiva (preparo, segredos, diferenciais)',
-  '🎁 Bônus inclusos:',
   'BÔNUS 1 – Checklist da Primeira Venda',
   'BÔNUS 2 – Sugestão de Embalagem Bonita e Barata',
   'BÔNUS 3 – Estratégia para Vender na Rua',
