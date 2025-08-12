@@ -18,9 +18,10 @@ const completePackageIncludes = [
 ];
 
 const simplePackageIncludes = [
-    "'Sabores Coreanos Adaptados'",
-    'Acesso por 6 meses',
-    'Garantia de 7 dias',
+    "Guia Lucrativo da Fresa do Amor Chilena",
+    "BÔNUS 1 – Checklist da Primeira Venda",
+    "Garantia de 30 dias",
+    "Acesso por 6 meses",
 ]
 
 
