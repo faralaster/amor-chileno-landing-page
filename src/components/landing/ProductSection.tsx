@@ -21,7 +21,7 @@ export function ProductSection() {
             </p>
             <div className="flex gap-4 pt-4">
                <a href="#offer">
-                <Button size="lg" className="h-14 text-lg px-10">Comprar Agora</Button>
+                <Button size="lg" className="h-16 text-xl px-12">Comprar Agora</Button>
                </a>
             </div>
           </div>
