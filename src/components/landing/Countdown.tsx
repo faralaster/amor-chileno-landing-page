@@ -51,15 +51,15 @@ export function Countdown() {
   const formatTime = (time: number) => time.toString().padStart(2, '0');
 
   return (
-    <div className="bg-yellow-400 text-gray-900 py-3 px-6 rounded-full shadow-lg w-full max-w-xl mx-auto mb-6 animate-pulse" data-aos="zoom-in">
-      <div className="flex items-center justify-center space-x-6 text-center text-lg md:text-xl">
+    <div className="bg-yellow-400 text-gray-900 py-3 px-6 rounded-full shadow-lg w-full max-w-xl mx-auto animate-pulse" data-aos="zoom-in">
+      <div className="flex flex-col items-center justify-center text-center text-lg md:text-xl">
         <div className="font-bold">
           <span>Oferta especial termina em: </span>
           <span className="tabular-nums">{formatTime(timeLeft.hours)}:</span>
           <span className="tabular-nums">{formatTime(timeLeft.minutes)}:</span>
           <span className="tabular-nums">{formatTime(timeLeft.seconds)}</span>
         </div>
-        <div className="hidden sm:flex items-center space-x-2 font-semibold">
+        <div className="flex items-center space-x-2 font-semibold">
           <MapPin className="h-5 w-5" />
           <span>Seja a primeira na região de {city}</span>
         </div>
