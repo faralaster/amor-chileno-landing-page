@@ -98,7 +98,7 @@ export function BonusesSection() {
                     {bonus.value}
                   </span>
                 </div>
-                <Badge variant="destructive" className="text-lg font-bold">GRÁTIS</Badge>
+                <Badge variant="default" className="text-lg font-bold bg-green-500 hover:bg-green-600">GRÁTIS</Badge>
               </CardFooter>
             </Card>
           ))}
@@ -128,7 +128,7 @@ export function BonusesSection() {
                     {bonus.value}
                   </span>
                 </div>
-                <Badge variant="destructive" className="text-lg font-bold">GRÁTIS</Badge>
+                <Badge variant="default" className="text-lg font-bold bg-green-500 hover:bg-green-600">GRÁTIS</Badge>
               </CardFooter>
             </Card>
           ))}
