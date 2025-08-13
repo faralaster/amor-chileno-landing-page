@@ -38,13 +38,13 @@ export function Countdown() {
   const formatTime = (time: number) => time.toString().padStart(2, '0');
 
   return (
-    <div className="bg-yellow-400 text-gray-900 py-3 px-6 rounded-full shadow-lg w-full max-w-xl mx-auto" data-aos="zoom-in">
-      <div className="flex flex-col items-center justify-center text-center text-lg md:text-xl">
-        <div className="font-bold">
+    <div className="bg-gradient-to-r from-pink-500 to-red-500 text-white py-4 px-6 rounded-full shadow-2xl w-full max-w-2xl mx-auto animate-pulse" data-aos="zoom-in">
+      <div className="flex flex-col items-center justify-center text-center">
+        <div className="font-bold text-xl md:text-2xl">
           <span>Oferta especial termina em: </span>
-          <span className="tabular-nums">{formatTime(timeLeft.hours)}:</span>
-          <span className="tabular-nums">{formatTime(timeLeft.minutes)}:</span>
-          <span className="tabular-nums">{formatTime(timeLeft.seconds)}</span>
+          <span className="tabular-nums text-2xl md:text-3xl tracking-widest ml-2">{formatTime(timeLeft.hours)}:</span>
+          <span className="tabular-nums text-2xl md:text-3xl tracking-widest">{formatTime(timeLeft.minutes)}:</span>
+          <span className="tabular-nums text-2xl md:text-3xl tracking-widest">{formatTime(timeLeft.seconds)}</span>
         </div>
       </div>
     </div>
