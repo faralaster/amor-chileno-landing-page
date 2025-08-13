@@ -28,7 +28,7 @@ export function HeroSection() {
             </div>
             <div className="w-full flex justify-center pt-4">
               <a href="#offer">
-                <Button size="lg" className="h-16 text-xl px-12 font-bold bg-white text-rose-600 hover:bg-white/90 shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <Button size="lg" className="h-16 text-xl px-12 font-bold bg-green-500 text-white hover:bg-green-600 shadow-lg transform hover:scale-105 transition-transform duration-300 border-b-4 border-green-700 active:translate-y-1 active:border-b-0">
                   EU QUERO O GUIA
                 </Button>
               </a>
