@@ -39,14 +39,14 @@ export function OfferSection() {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start max-w-5xl mx-auto">
           {/* Pacote Completo */}
-          <Card className="shadow-2xl border-4 border-pink-500 relative overflow-visible">
+          <Card className="shadow-2xl border-4 border-pink-500 relative overflow-visible rounded-3xl">
             <div className="absolute -top-4 right-6 bg-pink-500 text-white px-4 py-1 rounded-md text-sm font-bold">
               MAIS POPULAR
             </div>
             <CardHeader className="text-center pt-8">
               <CardTitle className="font-headline text-3xl">Pacote Completo: Super OFERTA</CardTitle>
               <p className="text-destructive line-through text-xl">R$177,80</p>
-              <p className="text-5xl font-bold text-primary font-headline">R$19,90</p>
+              <p className="text-5xl font-bold text-primary font-headline">$ 6500</p>
               <CardDescription>Experiência completa</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -66,7 +66,7 @@ export function OfferSection() {
                 <Progress value={95} className="h-4 bg-green-200" />
                 <p className="text-sm text-muted-foreground">11 vagas restantes</p>
               </div>
-              <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-600 hover:bg-green-700 text-white transform hover:scale-105 transition-transform duration-300">
+              <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-600 hover:bg-green-700 text-white transform hover:scale-105 transition-transform duration-300 rounded-3xl">
                 Sim! Quero essa SUPER OFERTA!
               </Button>
             </CardContent>
