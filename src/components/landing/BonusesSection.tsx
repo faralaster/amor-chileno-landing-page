@@ -13,7 +13,7 @@ const bonuses = [
     },
   },
   {
-    title: 'Bônus 2: Sugestão de Embalagem Bonita e Barata',
+    title: 'Bônus 2: Sugestão de Embalagem',
     description: 'Ideias criativas para apresentar seus produtos de forma bonita e econômica.',
     value: 'R$27',
     image: {
