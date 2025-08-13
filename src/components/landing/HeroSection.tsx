@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
+import { Countdown } from '@/components/landing/Countdown';
 
 export function HeroSection() {
   return (
@@ -7,6 +8,7 @@ export function HeroSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center min-h-[90vh] text-center py-12">
           <div className="flex flex-col items-center space-y-6" data-aos="fade-up">
+            <Countdown />
             <div className="space-y-3 text-center w-full">
               <h1 className="text-3xl font-headline tracking-tighter text-white sm:text-4xl md:text-5xl lg:text-6xl uppercase" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.3)' }}>
                 O Doce Que <span className="font-extrabold text-yellow-300">Viralizou No Brasil</span> Recentemente e Pode Te Fazer <span className="font-extrabold text-yellow-300">O Primeiro a Lucrar</span> Com Ele <br /> No <span className="font-extrabold text-yellow-300">Chile</span>
