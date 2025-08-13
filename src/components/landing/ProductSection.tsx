@@ -11,7 +11,7 @@ export function ProductSection() {
               O Guia Definitivo
             </div>
             <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl">
-              O que é o "Guia Lucrativo para o Amor por Morango"?
+              O que é o "Guia Lucrativo para o Amor por Morango Chilena"?
             </h2>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
               É um eBook completo em formato PDF que ensina, passo a passo, tudo o que você precisa saber para criar e vender morangos do amor irresistíveis. Das receitas secretas às estratégias de venda mais eficazes, este guia é seu atalho para o sucesso.
