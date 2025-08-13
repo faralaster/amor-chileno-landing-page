@@ -29,7 +29,7 @@ export function OfferSection() {
   return (
     <section id="offer" className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-secondary to-accent">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="space-y-3 text-center mb-12">
+        <div className="space-y-3 text-center mb-12" data-aos="fade-up">
             <h2 className="text-4xl font-bold font-headline tracking-tighter text-white sm:text-5xl md:text-6xl">
             Oferta especial por tempo limitado!
             </h2>
@@ -39,7 +39,7 @@ export function OfferSection() {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start max-w-5xl mx-auto">
           {/* Pacote Completo */}
-          <Card className="shadow-2xl border-4 border-pink-500 relative overflow-visible rounded-3xl">
+          <Card className="shadow-2xl border-4 border-pink-500 relative overflow-visible rounded-3xl" data-aos="fade-up" data-aos-delay="100">
             <div className="absolute -top-4 right-6 bg-pink-500 text-white px-4 py-1 rounded-md text-sm font-bold">
               MAIS POPULAR
             </div>
@@ -66,14 +66,14 @@ export function OfferSection() {
                 <Progress value={95} className="h-4 bg-green-200" />
                 <p className="text-sm text-muted-foreground">11 vagas restantes</p>
               </div>
-              <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-600 hover:bg-green-700 text-white transform hover:scale-105 transition-transform duration-300 rounded-3xl">
+              <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-600 hover:bg-green-700 text-white transform hover:scale-105 transition-transform duration-300 rounded-full">
                 Sim! Quero essa SUPER OFERTA!
               </Button>
             </CardContent>
           </Card>
 
           {/* Pacote Simples */}
-          <Card className="shadow-lg bg-white/90">
+          <Card className="shadow-lg bg-white/90" data-aos="fade-up" data-aos-delay="200">
             <CardHeader className="text-center">
               <CardTitle className="font-headline text-3xl">Pacote Simples</CardTitle>
                <p className="text-5xl font-bold text-primary font-headline">$ 4000</p>

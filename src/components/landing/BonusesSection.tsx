@@ -72,7 +72,7 @@ export function BonusesSection() {
   return (
     <section id="bonuses" className="w-full py-12 md:py-24 lg:py-32 bg-background">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-4 text-center">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center" data-aos="fade-up">
           <div className="space-y-2">
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">
               E não é só isso, receba 7 bônus exclusivos!
@@ -83,8 +83,8 @@ export function BonusesSection() {
           </div>
         </div>
         <div className="mx-auto grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {bonuses.slice(0, 4).map((bonus) => (
-            <Card key={bonus.title} className="flex flex-col overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
+          {bonuses.slice(0, 4).map((bonus, index) => (
+            <Card key={bonus.title} className="flex flex-col overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay={index * 100}>
               <CardHeader>
                 <CardTitle className="font-headline text-xl h-12">{bonus.title}</CardTitle>
               </CardHeader>
@@ -113,8 +113,8 @@ export function BonusesSection() {
           ))}
         </div>
          <div className="mx-auto grid grid-cols-1 gap-6 py-2 sm:grid-cols-2 lg:grid-cols-3">
-           {bonuses.slice(4).map((bonus) => (
-            <Card key={bonus.title} className="flex flex-col overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
+           {bonuses.slice(4).map((bonus, index) => (
+            <Card key={bonus.title} className="flex flex-col overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay={index * 100}>
               <CardHeader>
                 <CardTitle className="font-headline text-xl h-12">{bonus.title}</CardTitle>
               </CardHeader>

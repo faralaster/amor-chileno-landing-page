@@ -5,7 +5,7 @@ export function GuaranteeSection() {
     <section id="guarantee" className="w-full py-12 md:py-24 lg:py-32 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="flex justify-center">
+          <div className="flex justify-center" data-aos="fade-right">
             <Image
               src="https://placehold.co/300x300.png"
               alt="Selo de Garantia de 7 dias"
@@ -15,7 +15,7 @@ export function GuaranteeSection() {
               data-ai-hint="guarantee seal badge"
             />
           </div>
-          <div className="space-y-4 text-center md:text-left">
+          <div className="space-y-4 text-center md:text-left" data-aos="fade-left">
             <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl">
               Sua compra é 100% segura!
             </h2>

@@ -28,7 +28,7 @@ export function BenefitsSection() {
   return (
     <section id="benefits" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-4 text-center">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center" data-aos="fade-up">
           <div className="space-y-2">
             <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary font-medium">
               Benefícios Chave
@@ -41,9 +41,9 @@ export function BenefitsSection() {
             </p>
           </div>
         </div>
-        <div className="mx-auto grid max-w-5xl items-start gap-12 py-12 lg:grid-cols-2 lg:gap-16">
-          {benefits.map((benefit) => (
-            <div key={benefit.title} className="flex items-start gap-4">
+        <div className="mx-auto grid max-w-5xl items-start gap-12 py-12 lg:grid-cols-2 lg:gap-16" data-aos="fade-up" data-aos-delay="200">
+          {benefits.map((benefit, index) => (
+            <div key={benefit.title} className="flex items-start gap-4" data-aos="fade-up" data-aos-delay={index * 100}>
               <div className="bg-primary text-primary-foreground rounded-full p-3">
                 <benefit.icon className="h-6 w-6" />
               </div>

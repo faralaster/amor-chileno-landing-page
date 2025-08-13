@@ -6,7 +6,7 @@ export function ProductSection() {
     <section id="product" className="w-full py-12 md:py-24 lg:py-32 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-10 md:grid-cols-2 md:gap-16 items-center">
-          <div className="space-y-4">
+          <div className="space-y-4" data-aos="fade-up">
             <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm font-medium">
               O Guia Definitivo
             </div>
@@ -21,11 +21,11 @@ export function ProductSection() {
             </p>
             <div className="flex gap-4 pt-4">
                <a href="#offer">
-                <Button size="lg" className="h-16 text-xl px-12">Comprar Agora</Button>
+                <Button size="lg" className="h-16 text-xl px-12 rounded-full">Comprar Agora</Button>
                </a>
             </div>
           </div>
-          <div className="flex flex-col items-center gap-4">
+          <div className="flex flex-col items-center gap-4" data-aos="fade-up" data-aos-delay="200">
             <Image
               src="https://placehold.co/600x450.png"
               width="600"
