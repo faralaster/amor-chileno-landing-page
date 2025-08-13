@@ -39,10 +39,10 @@ export function ProductSection() {
                 <ProductCountdown />
                 <p className="text-lg font-medium text-muted-foreground">Oferta por tempo Limitado</p>
                 <p className="text-4xl font-bold font-headline text-primary">
-                    <span className="text-2xl text-destructive line-through decoration-2 mr-2">R$97,00</span>
+                    <span className="text-2xl text-destructive line-through decoration-2 mr-2">$ 37000</span>
                     R$19,90
                 </p>
-                <p className="font-semibold text-green-600">Você economiza R$77,10!</p>
+                <p className="font-semibold text-green-600">Você economiza $36980,10!</p>
             </div>
           </div>
         </div>
