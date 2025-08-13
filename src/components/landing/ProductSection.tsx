@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
+import { ProductCountdown } from '@/components/landing/ProductCountdown';
 
 export function ProductSection() {
   return (
@@ -34,7 +35,8 @@ export function ProductSection() {
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
               data-ai-hint="ebook mockup spread"
             />
-            <div className="text-center p-6 bg-muted rounded-xl w-full">
+            <div className="text-center p-6 bg-muted rounded-xl w-full relative">
+                <ProductCountdown />
                 <p className="text-lg font-medium text-muted-foreground">Oferta de Lançamento</p>
                 <p className="text-4xl font-bold font-headline text-primary">
                     <span className="text-2xl text-destructive line-through decoration-2 mr-2">R$97,00</span>
