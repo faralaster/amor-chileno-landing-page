@@ -9,6 +9,7 @@ export function Countdown() {
     minutes: 13,
     seconds: 45,
   });
+  const [city, setCity] = useState('em sua cidade');
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -33,6 +34,17 @@ export function Countdown() {
       });
     }, 1000);
 
+    fetch("https://ipapi.co/json/")
+      .then(response => response.json())
+      .then(data => {
+        if(data && data.city){
+          setCity(`em ${data.city}`);
+        }
+      })
+      .catch(() => {
+        // Fails silently and keeps the default city
+      });
+
     return () => clearInterval(timer);
   }, []);
 
@@ -49,7 +61,7 @@ export function Countdown() {
         </div>
         <div className="hidden sm:flex items-center space-x-2 font-semibold">
           <MapPin className="h-5 w-5" />
-          <span>em sua cidade</span>
+          <span>{city}</span>
         </div>
       </div>
     </div>
