@@ -45,7 +45,7 @@ export function OfferSection() {
             </div>
             <CardHeader className="text-center pt-8">
               <CardTitle className="font-headline text-3xl">Pacote Completo: Super OFERTA</CardTitle>
-              <p className="text-destructive line-through text-xl">R$177,80</p>
+              <p className="text-destructive line-through text-xl">De $ 37000</p>
               <p className="text-5xl font-bold text-primary font-headline">$ 6500</p>
               <CardDescription>Experiência completa</CardDescription>
             </CardHeader>
