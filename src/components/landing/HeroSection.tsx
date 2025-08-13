@@ -8,7 +8,7 @@ export function HeroSection() {
         <div className="flex flex-col items-center justify-center min-h-[90vh] text-center py-12">
           <div className="flex flex-col items-center space-y-6">
             <div className="space-y-3 text-center w-full">
-              <h1 className="text-4xl font-headline tracking-tighter text-white sm:text-5xl md:text-6xl lg:text-7xl uppercase" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.3)' }}>
+              <h1 className="text-3xl font-headline tracking-tighter text-white sm:text-4xl md:text-5xl lg:text-6xl uppercase" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.3)' }}>
                 O Doce Que <span className="font-extrabold text-yellow-300">Viralizou no Brasil</span> Recentemente e Pode Fazer Você Estar Ganhando <span className="font-extrabold text-yellow-300">um Salário Mínimo Por Semana</span> <span className="font-extrabold text-yellow-300">No Chile</span>
               </h1>
               <p className="max-w-4xl mx-auto text-lg text-white/95 md:text-xl">
