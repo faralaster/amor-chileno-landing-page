@@ -49,7 +49,7 @@ const testimonials = [
 
 export function TestimonialsSection() {
   return (
-    <section id="testimonials" className="w-full py-12 md:py-24 lg:py-32 bg-background">
+    <section id="testimonials" className="w-full py-12 md:py-16 lg:py-20 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center" data-aos="fade-up">
             <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary font-medium">

@@ -26,7 +26,7 @@ const faqs = [
 
 export function FaqSection() {
   return (
-    <section id="faq" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+    <section id="faq" className="w-full py-12 md:py-16 lg:py-20 bg-muted">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center" data-aos="fade-up">
             <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl">

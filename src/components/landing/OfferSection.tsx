@@ -26,7 +26,7 @@ const simplePackageIncludes = [
 
 export function OfferSection() {
   return (
-    <section id="offer" className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-br from-secondary to-accent">
+    <section id="offer" className="w-full py-12 md:py-16 lg:py-20 bg-gradient-to-br from-secondary to-accent">
       <div className="container mx-auto px-4 md:px-6">
         <div className="space-y-3 text-center mb-12" data-aos="fade-up">
             <h2 className="text-4xl font-bold font-headline tracking-tighter text-white sm:text-5xl md:text-6xl">
