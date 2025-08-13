@@ -31,16 +31,7 @@ const bonuses = [
     },
   },
   {
-    title: 'Bônus 4: Mini Calculadora de Lucro',
-    description: 'Uma ferramenta simples para você calcular rapidamente o lucro de cada venda e otimizar seus preços.',
-    value: 'R$37',
-    image: {
-      src: 'https://placehold.co/400x300.png',
-      hint: 'calculator money',
-    },
-  },
-  {
-    title: 'Bônus 5: Checklist de Erros Comuns',
+    title: 'Bônus 4: Checklist de Erros Comuns',
     description: 'Aprenda a evitar os erros mais comuns que iniciantes cometem e saia na frente da concorrência.',
     value: 'R$27',
     image: {
@@ -49,7 +40,7 @@ const bonuses = [
     },
   },
   {
-    title: 'Bônus 6: Ideias de Promoções',
+    title: 'Bônus 5: Ideias de Promoções',
     description: 'Estratégias de promoções como "compre X, leve Y" para aumentar o valor do seu ticket médio.',
     value: 'R$47',
     image: {
@@ -58,7 +49,7 @@ const bonuses = [
     },
   },
   {
-    title: 'Bônus 7: Guia de Conservação e Transporte',
+    title: 'Bônus 6: Guia de Conservação e Transporte',
     description: 'Dicas essenciais para manter seus morangos do amor frescos e transportá-los com segurança.',
     value: 'R$17',
     image: {
@@ -75,15 +66,15 @@ export function BonusesSection() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center" data-aos="fade-up">
           <div className="space-y-2">
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">
-              E não é só isso, receba 7 bônus exclusivos!
+              E não é só isso, receba 6 bônus exclusivos!
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Ao comprar o guia hoje, você também obtém acesso imediato a estes materiais extras sem custo algum.
             </p>
           </div>
         </div>
-        <div className="mx-auto grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {bonuses.slice(0, 4).map((bonus, index) => (
+        <div className="mx-auto grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
+          {bonuses.slice(0, 3).map((bonus, index) => (
             <Card key={bonus.title} className="flex flex-col overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay={index * 100}>
               <CardHeader>
                 <CardTitle className="font-headline text-xl h-12">{bonus.title}</CardTitle>
@@ -113,7 +104,7 @@ export function BonusesSection() {
           ))}
         </div>
          <div className="mx-auto grid grid-cols-1 gap-6 py-2 sm:grid-cols-2 lg:grid-cols-3">
-           {bonuses.slice(4).map((bonus, index) => (
+           {bonuses.slice(3).map((bonus, index) => (
             <Card key={bonus.title} className="flex flex-col overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay={index * 100}>
               <CardHeader>
                 <CardTitle className="font-headline text-xl h-12">{bonus.title}</CardTitle>

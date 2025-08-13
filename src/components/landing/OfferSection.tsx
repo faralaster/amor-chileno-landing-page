@@ -9,10 +9,9 @@ const completePackageIncludes = [
   'BÔNUS 1 – Checklist da Primeira Venda',
   'BÔNUS 2 – Sugestão de Embalagem Bonita e Barata',
   'BÔNUS 3 – Estratégia para Vender na Rua',
-  'BÔNUS 4 – Como Calcular o meu Lucro',
-  'BÔNUS 5 – Checklist de Erros Comuns e Como Evitar',
-  'BÔNUS 6 – Ideias de Promoções',
-  'BÔNUS 7 – Guia Rápido de Conservação e Transporte',
+  'BÔNUS 4 – Checklist de Erros Comuns e Como Evitar',
+  'BÔNUS 5 – Ideias de Promoções',
+  'BÔNUS 6 – Guia Rápido de Conservação e Transporte',
   'Garantia de 30 dias',
   'Acesso vitalício',
 ];
