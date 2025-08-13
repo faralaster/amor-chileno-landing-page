@@ -12,7 +12,7 @@ export function HeroSection() {
                 O Doce Que <span className="font-extrabold text-yellow-300">Viralizou No Brasil</span> Recentemente e Pode Te Fazer <span className="font-extrabold text-yellow-300">O Primeira a Lucrar</span> Com Ele <span className="font-extrabold text-yellow-300">No Chile</span>
               </h1>
               <p className="max-w-4xl mx-auto text-lg text-white/95 md:text-xl">
-                Descubra a receita secreta do <i className="font-semibold">'Morango do Amor'</i> que está fazendo brasileiras ganharem milhares por semana + o método exato para ser a primeira a vender no Chile e dominar este mercado inexplorado antes que todos descubram
+                Descubra a receita secreta do 'Morango do Amor' que virou febre no Brasil + o método exato para ser a primeira a vender no Chile e dominar este mercado inexplorado antes que todos descubram
               </p>
             </div>
             <div className="py-4">
