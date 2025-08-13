@@ -14,7 +14,7 @@ export function ProductSection() {
               O que é o "Guia Lucrativo para o Amor por Morango Chilena"?
             </h2>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
-              É um eBook completo em formato PDF que ensina, passo a passo, tudo o que você precisa saber para criar e vender morangos do amor irresistíveis. Das receitas secretas às estratégias de venda mais eficazes, este guia é seu atalho para o sucesso.
+              É um Conteudo completo que ensina, passo a passo, tudo o que você precisa saber para criar e vender morangos do amor irresistíveis. Das receitas secretas às estratégias de venda mais eficazes, este guia é seu atalho para o sucesso.
             </p>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
               Você descobrirá como escolher os melhores ingredientes, decorar de forma profissional, calcular seus custos e preços, e promover seu negócio para atrair uma multidão de clientes.
