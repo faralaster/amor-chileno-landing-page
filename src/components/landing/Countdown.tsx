@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { MapPin } from 'lucide-react';
 
 export function Countdown() {
   const [timeLeft, setTimeLeft] = useState({
@@ -9,7 +8,6 @@ export function Countdown() {
     minutes: 13,
     seconds: 45,
   });
-  const [city, setCity] = useState('sua cidade');
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -34,17 +32,6 @@ export function Countdown() {
       });
     }, 1000);
 
-    fetch("https://ipapi.co/json/")
-      .then(response => response.json())
-      .then(data => {
-        if(data && data.city){
-          setCity(data.city);
-        }
-      })
-      .catch(() => {
-        // Fails silently and keeps the default city
-      });
-
     return () => clearInterval(timer);
   }, []);
 
@@ -58,10 +45,6 @@ export function Countdown() {
           <span className="tabular-nums">{formatTime(timeLeft.hours)}:</span>
           <span className="tabular-nums">{formatTime(timeLeft.minutes)}:</span>
           <span className="tabular-nums">{formatTime(timeLeft.seconds)}</span>
-        </div>
-        <div className="flex items-center space-x-2 font-semibold">
-          <MapPin className="h-5 w-5" />
-          <span>Seja a primeira na região de <span className="animate-pulse">{city}</span></span>
         </div>
       </div>
     </div>
