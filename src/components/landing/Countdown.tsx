@@ -9,7 +9,7 @@ export function Countdown() {
     minutes: 13,
     seconds: 45,
   });
-  const [city, setCity] = useState('em sua cidade');
+  const [city, setCity] = useState('sua cidade');
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -38,7 +38,7 @@ export function Countdown() {
       .then(response => response.json())
       .then(data => {
         if(data && data.city){
-          setCity(`em ${data.city}`);
+          setCity(data.city);
         }
       })
       .catch(() => {
@@ -61,7 +61,7 @@ export function Countdown() {
         </div>
         <div className="hidden sm:flex items-center space-x-2 font-semibold">
           <MapPin className="h-5 w-5" />
-          <span>{city}</span>
+          <span>Seja a primeira na região de {city}</span>
         </div>
       </div>
     </div>
