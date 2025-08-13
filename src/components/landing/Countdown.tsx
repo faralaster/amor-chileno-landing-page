@@ -38,7 +38,7 @@ export function Countdown() {
   const formatTime = (time: number) => time.toString().padStart(2, '0');
 
   return (
-    <div className="bg-gradient-to-r from-pink-500 to-red-500 text-white py-4 px-6 rounded-full shadow-2xl w-full max-w-2xl mx-auto animate-pulse" data-aos="zoom-in">
+    <div className="bg-[#FFD600] text-black py-4 px-6 rounded-full shadow-2xl w-full max-w-2xl mx-auto animate-pulse" data-aos="zoom-in">
       <div className="flex flex-col items-center justify-center text-center">
         <div className="font-bold text-xl md:text-2xl">
           <span>Oferta especial termina em: </span>
