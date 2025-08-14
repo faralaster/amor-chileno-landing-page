@@ -28,7 +28,7 @@ export function ProductSection() {
           </div>
           <div className="flex flex-col items-center gap-4" data-aos="fade-up" data-aos-delay="200">
             <Image
-              src="https://i.imgur.com/vslxfmF.png"
+              src="https://i.imgur.com/SfyaDLN.png"
               width="600"
               height="450"
               alt="Mockup do eBook e dos bônus"
