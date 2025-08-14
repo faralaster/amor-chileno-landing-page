@@ -53,7 +53,7 @@ const bonuses = [
     description: 'Dicas essenciais para manter seus morangos do amor frescos e transportá-los com segurança.',
     value: 'R$17',
     image: {
-      src: 'https://placehold.co/400x300.png',
+      src: 'https://i.imgur.com/31Wyidp.png',
       hint: 'delivery box',
     },
   },
