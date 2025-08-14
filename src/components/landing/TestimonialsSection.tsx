@@ -19,7 +19,7 @@ const testimonials = [
     comment: 'O guia é incrível! Comecei a vender no meu condomínio e já recuperei o investimento na primeira semana. As receitas são um sucesso!',
   },
   {
-    name: 'Marcos Oliveira',
+    name: 'Juana Neumann',
     location: 'Rio de Janeiro, Brasil',
     image: {
       src: 'https://placehold.co/100x100.png',
