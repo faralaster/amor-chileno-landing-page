@@ -28,7 +28,7 @@ const testimonials = [
     comment: 'Eu não tinha ideia de como começar. O checklist e as estratégias para vender na rua foram exatamente o que eu precisava. Recomendado!',
   },
   {
-    name: 'Carla Souza',
+    name: 'Jose Chaparro',
     location: 'Belo Horizonte, Brasil',
     image: {
       src: 'https://placehold.co/100x100.png',
