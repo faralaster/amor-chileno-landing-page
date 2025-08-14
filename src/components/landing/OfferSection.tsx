@@ -4,8 +4,8 @@ import { Progress } from '@/components/ui/progress';
 import { CheckCircle } from 'lucide-react';
 
 const completePackageIncludes = [
-  'Guia Lucrativo do morango do Amor Chilena',
   'Video Aula da Receita Morango do Amor Chilena',
+  'Guia Lucrativo do morango do Amor Chilena',
   'BÔNUS 1 – Checklist da Primeira Venda',
   'BÔNUS 2 – Sugestão de Embalagem Bonita e Barata',
   'BÔNUS 3 – Estratégia para Vender na Rua',
