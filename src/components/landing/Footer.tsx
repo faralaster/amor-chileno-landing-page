@@ -16,7 +16,7 @@ export function Footer() {
             </a>
         </div>
         <div className="text-sm text-slate-400">
-          <p>&copy; {new Date().getFullYear()} Amor Chileno. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Morango do Amor Chileno. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
