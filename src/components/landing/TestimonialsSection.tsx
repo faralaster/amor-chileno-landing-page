@@ -37,7 +37,7 @@ const testimonials = [
     comment: 'Pensei que seria difícil, mas o passo a passo é muito claro. Meus morangos agora parecem profissionais e vendem super rápido.',
   },
   {
-    name: 'Bruno Lima',
+    name: 'Rosa Gonzales',
     location: 'Salvador, Brasil',
     image: {
       src: 'https://placehold.co/100x100.png',
