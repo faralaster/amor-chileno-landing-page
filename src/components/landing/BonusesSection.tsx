@@ -6,7 +6,7 @@ const bonuses = [
   {
     title: 'Bônus 1: Checklist da Primeira Venda',
     description: 'Um passo a passo para que seu primeiro dia de vendas seja um sucesso total.',
-    value: 'R$47',
+    value: '$8000',
     image: {
       src: 'https://i.imgur.com/o20bhpy.png',
       hint: 'checklist document',
