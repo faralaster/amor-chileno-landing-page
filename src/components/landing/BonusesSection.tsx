@@ -17,7 +17,7 @@ const bonuses = [
     description: 'Ideias criativas para apresentar seus produtos de forma bonita e econômica.',
     value: 'R$27',
     image: {
-      src: 'https://i.imgur.com/crB8wLV.png',
+      src: 'https://i.imgur.com/aX84vXM.png',
       hint: 'gift packaging',
     },
   },
