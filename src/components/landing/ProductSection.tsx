@@ -29,10 +29,10 @@ export function ProductSection() {
           <div className="flex flex-col items-center gap-4" data-aos="fade-up" data-aos-delay="200">
             <Image
               src="https://i.imgur.com/SfyaDLN.png"
-              width="700"
-              height="600"
+              width="600"
+              height="700"
               alt="Mockup do eBook e dos bônus"
-              className="mx-auto aspect-[7/6] overflow-hidden rounded-xl object-cover object-center sm:w-full"
+              className="mx-auto aspect-[6/7] overflow-hidden rounded-xl object-cover object-center sm:w-full"
               data-ai-hint="ebook mockup spread"
             />
             <div className="text-center p-6 bg-muted rounded-xl w-full relative">
