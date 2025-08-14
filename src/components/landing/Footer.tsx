@@ -1,4 +1,4 @@
-import { Mail, Phone } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -13,10 +13,6 @@ export function Footer() {
             <a href="mailto:fresadelamorchileno@gmail.com" className="flex items-center gap-2 hover:text-white transition-colors">
                 <Mail className="h-4 w-4" />
                 <span>fresadelamorchileno@gmail.com</span>
-            </a>
-            <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
-                <Phone className="h-4 w-4" />
-                <span>WhatsApp de Suporte</span>
             </a>
         </div>
         <div className="text-sm text-slate-400">
