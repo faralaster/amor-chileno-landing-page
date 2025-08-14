@@ -28,7 +28,7 @@ export function ProductSection() {
           </div>
           <div className="flex flex-col items-center gap-4" data-aos="fade-up" data-aos-delay="200">
             <Image
-              src="https://placehold.co/600x450.png"
+              src="https://i.imgur.com/vslxfmF.png"
               width="600"
               height="450"
               alt="Mockup do eBook e dos bônus"
