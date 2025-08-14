@@ -20,7 +20,7 @@ const testimonials = [
   },
   {
     name: 'Juana Neumann',
-    location: 'Rio de Janeiro, Brasil',
+    location: 'Santiago, Chile',
     image: {
       src: 'https://placehold.co/100x100.png',
       hint: 'smiling man',
