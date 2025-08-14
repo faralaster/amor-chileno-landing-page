@@ -29,7 +29,7 @@ const testimonials = [
   },
   {
     name: 'Jose Chaparro',
-    location: 'Belo Horizonte, Brasil',
+    location: 'Antofagasta, Chile',
     image: {
       src: 'https://placehold.co/100x100.png',
       hint: 'happy person',
