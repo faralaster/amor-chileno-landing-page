@@ -16,7 +16,7 @@ const testimonials = [
       src: 'https://placehold.co/100x100.png',
       hint: 'happy woman',
     },
-    comment: 'O guia é incrível! Comecei a vender no meu condomínio e já recuperei o investimento na primeira semana. As receitas são um sucesso!',
+    comment: 'O guia é incrível! Comecei a vender no meu condomínio e já recuperei o investimento na primeira semana. Os Morango do Amor Chileno são um sucesso, estou sem acreditar até agora quanto to faturando só essa semana',
   },
   {
     name: 'Juana Neumann',
