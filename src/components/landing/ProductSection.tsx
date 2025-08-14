@@ -30,9 +30,9 @@ export function ProductSection() {
             <Image
               src="https://i.imgur.com/SfyaDLN.png"
               width="600"
-              height="450"
+              height="600"
               alt="Mockup do eBook e dos bônus"
-              className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
+              className="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center sm:w-full"
               data-ai-hint="ebook mockup spread"
             />
             <div className="text-center p-6 bg-muted rounded-xl w-full relative">
