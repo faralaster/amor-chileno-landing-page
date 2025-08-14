@@ -35,7 +35,7 @@ const bonuses = [
     description: 'Aprenda a evitar os erros mais comuns que iniciantes cometem e saia na frente da concorrência.',
     value: 'R$27',
     image: {
-      src: 'https://imgur.com/BBhWmk5.png',
+      src: 'https://i.imgur.com/BBhWmk5.png',
       hint: 'warning sign',
     },
   },
@@ -44,7 +44,7 @@ const bonuses = [
     description: 'Estratégias de promoções como "compre X, leve Y" para aumentar o valor do seu ticket médio.',
     value: 'R$47',
     image: {
-      src: 'https://imgur.com/1fDF9hg.png',
+      src: 'https://i.imgur.com/1fDF9hg.png',
       hint: 'promotional sale tag',
     },
   },
@@ -53,7 +53,7 @@ const bonuses = [
     description: 'Dicas essenciais para manter seus morangos do amor frescos e transportá-los com segurança.',
     value: 'R$17',
     image: {
-      src: 'https://imgur.com/31Wyidp.png',
+      src: 'https://i.imgur.com/31Wyidp.png',
       hint: 'delivery box',
     },
   },
@@ -62,7 +62,7 @@ const bonuses = [
 export function BonusesSection() {
   const getBonusCard = (bonus: typeof bonuses[0], index: number) => {
     return (
-      <Card key={bonus.title} className="flex flex-col overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 w-[400px] h-[550px]" data-aos="fade-up" data-aos-delay={index * 100}>
+      <Card key={bonus.title} className="flex flex-col overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 w-[280px] h-[400px]" data-aos="fade-up" data-aos-delay={index * 100}>
         <CardHeader>
           <CardTitle className="font-headline text-xl h-12">{bonus.title}</CardTitle>
         </CardHeader>
@@ -104,7 +104,7 @@ export function BonusesSection() {
             </p>
           </div>
         </div>
-        <div className="mx-auto grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="flex flex-wrap justify-center gap-6 py-12">
           {bonuses.map((bonus, index) => getBonusCard(bonus, index))}
         </div>
       </div>
