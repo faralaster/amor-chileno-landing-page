@@ -31,7 +31,7 @@ const testimonials = [
     name: 'Jose Chaparro',
     location: 'Antofagasta, Chile',
     image: {
-      src: 'https://placehold.co/100x100.png',
+      src: 'https://i.imgur.com/O5hRHiU.png',
       hint: 'happy person',
     },
     comment: 'Pensei que seria difícil, mas o passo a passo é muito claro. Meus morangos ficaram incriveis ja to com 8 encomendas para agora a tarde, muito obrigado',
