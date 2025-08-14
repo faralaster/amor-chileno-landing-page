@@ -34,7 +34,7 @@ const testimonials = [
       src: 'https://placehold.co/100x100.png',
       hint: 'happy person',
     },
-    comment: 'Pensei que seria difícil, mas o passo a passo é muito claro. Meus morangos agora parecem profissionais e vendem super rápido.',
+    comment: 'Pensei que seria difícil, mas o passo a passo é muito claro. Meus morangos ficaram incriveis ja to com 8 encomendas para agora a tarde, muito obrigado',
   },
   {
     name: 'Rosa Gonzales',
