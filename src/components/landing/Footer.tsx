@@ -10,9 +10,9 @@ export function Footer() {
         </div>
         <div className="flex flex-col items-center md:items-start space-y-2 mb-4 md:mb-0">
             <h4 className="font-semibold text-white">Contato</h4>
-            <a href="mailto:contato@amorchileno.com" className="flex items-center gap-2 hover:text-white transition-colors">
+            <a href="mailto:fresadelamorchileno@gmail.com" className="flex items-center gap-2 hover:text-white transition-colors">
                 <Mail className="h-4 w-4" />
-                <span>contato@amorchileno.com</span>
+                <span>fresadelamorchileno@gmail.com</span>
             </a>
             <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
                 <Phone className="h-4 w-4" />
