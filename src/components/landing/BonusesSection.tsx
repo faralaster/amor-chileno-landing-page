@@ -44,7 +44,7 @@ const bonuses = [
     description: 'Estratégias de promoções como "compre X, leve Y" para aumentar o valor do seu ticket médio.',
     value: 'R$47',
     image: {
-      src: 'https://placehold.co/400x300.png',
+      src: 'https://i.imgur.com/BdZygW1.png',
       hint: 'promotional sale tag',
     },
   },
