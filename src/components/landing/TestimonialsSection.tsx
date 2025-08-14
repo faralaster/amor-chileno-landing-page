@@ -13,7 +13,7 @@ const testimonials = [
     name: 'Claudia Morales',
     location: 'Puente Alto, Chile',
     image: {
-      src: 'https://placehold.co/100x100.png',
+      src: 'https://i.imgur.com/7qU0hPG.png',
       hint: 'happy woman',
     },
     comment: 'O guia é incrível! Comecei a vender no meu condomínio e já recuperei o investimento na primeira semana. Os Morango do Amor Chileno são um sucesso, estou sem acreditar até agora quanto to faturando só essa semana',
