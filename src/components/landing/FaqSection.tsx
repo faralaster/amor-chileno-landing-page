@@ -7,8 +7,8 @@ import {
 
 const faqs = [
   {
-    question: 'Como recebo o eBook?',
-    answer: 'O acesso ao eBook e a todos os bônus é 100% digital. Você receberá um e-mail com um link para baixar todo o material imediatamente após a confirmação do pagamento.',
+    question: 'Como recebo o Guia da Receita?',
+    answer: 'O acesso ao Guia da Receita e a todos os bônus é 100% digital. Você receberá um e-mail com um link para baixar todo o material imediatamente após a confirmação do pagamento.',
   },
   {
     question: 'Preciso ter experiência para começar?',
