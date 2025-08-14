@@ -17,7 +17,7 @@ const bonuses = [
     description: 'Ideias criativas para apresentar seus produtos de forma bonita e econômica.',
     value: 'R$27',
     image: {
-      src: 'https://i.imgur.com/aX84vXM.png',
+      src: 'https://imgur.com/aX84vXM.png',
       hint: 'gift packaging',
     },
   },
@@ -62,7 +62,7 @@ const bonuses = [
 export function BonusesSection() {
   const getBonusCard = (bonus: typeof bonuses[0], index: number) => {
     return (
-      <Card key={bonus.title} className="flex flex-col overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay={index * 100}>
+      <Card key={bonus.title} className="flex flex-col overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 w-full h-[520px]" data-aos="fade-up" data-aos-delay={index * 100}>
         <CardHeader>
           <CardTitle className="font-headline text-xl h-12">{bonus.title}</CardTitle>
         </CardHeader>
