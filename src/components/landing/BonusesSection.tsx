@@ -61,7 +61,6 @@ const bonuses = [
 
 export function BonusesSection() {
   const getBonusCard = (bonus: typeof bonuses[0], index: number) => {
-    const isBonus5 = bonus.title.includes('Bônus 5');
     return (
       <Card key={bonus.title} className="flex flex-col overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay={index * 100}>
         <CardHeader>
@@ -105,11 +104,8 @@ export function BonusesSection() {
             </p>
           </div>
         </div>
-        <div className="mx-auto grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-          {bonuses.slice(0, 3).map((bonus, index) => getBonusCard(bonus, index))}
-        </div>
-         <div className="mx-auto grid grid-cols-1 gap-6 py-2 sm:grid-cols-2 lg:grid-cols-3">
-           {bonuses.slice(3).map((bonus, index) => getBonusCard(bonus, index + 3))}
+        <div className="mx-auto grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3">
+          {bonuses.map((bonus, index) => getBonusCard(bonus, index))}
         </div>
       </div>
     </section>
