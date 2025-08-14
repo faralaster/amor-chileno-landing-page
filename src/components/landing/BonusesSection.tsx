@@ -26,7 +26,7 @@ const bonuses = [
     description: 'Os segredos para escolher o melhor ponto e atrair clientes em qualquer lugar.',
     value: 'R$67',
     image: {
-      src: 'https://placehold.co/400x300.png',
+      src: 'https://i.imgur.com/TbVd03I.png',
       hint: 'street market',
     },
   },
