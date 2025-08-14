@@ -24,7 +24,7 @@ const bonuses = [
   {
     title: 'Bônus 3: Estratégia para Vender na Rua',
     description: 'Os segredos para escolher o melhor ponto e atrair clientes em qualquer lugar.',
-    value: 'R$67',
+    value: '$8000',
     image: {
       src: 'https://i.imgur.com/TbVd03I.png',
       hint: 'street market',
