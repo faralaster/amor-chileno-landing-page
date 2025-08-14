@@ -44,7 +44,7 @@ const bonuses = [
     description: 'Estratégias de promoções como "compre X, leve Y" para aumentar o valor do seu ticket médio.',
     value: 'R$47',
     image: {
-      src: 'https://i.imgur.com/BdZygW1.png',
+      src: 'https://placehold.co/400x300.png',
       hint: 'promotional sale tag',
     },
   },
@@ -68,7 +68,7 @@ export function BonusesSection() {
           <CardTitle className="font-headline text-xl h-12">{bonus.title}</CardTitle>
         </CardHeader>
         <CardContent className="flex-grow space-y-4">
-          <div className={`aspect-video overflow-hidden rounded-md ${isBonus5 ? 'p-4' : ''}`}>
+          <div className={`aspect-video overflow-hidden rounded-md`}>
              <Image
                 src={bonus.image.src}
                 alt={bonus.title}
