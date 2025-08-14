@@ -25,7 +25,7 @@ const testimonials = [
       src: 'https://placehold.co/100x100.png',
       hint: 'smiling man',
     },
-    comment: 'Eu não tinha ideia de como começar. O checklist e as estratégias para vender na rua foram exatamente o que eu precisava. Recomendado!',
+    comment: 'Eu não tinha ideia de como começar. Mas o checklist e as estratégias para vender eram o que precisava. Nem estou acreditando que já consegui fazer 18 vendas só hoje devia ter feito mais',
   },
   {
     name: 'Jose Chaparro',
