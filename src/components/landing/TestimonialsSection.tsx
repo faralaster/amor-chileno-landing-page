@@ -22,7 +22,7 @@ const testimonials = [
     name: 'Juana Neumann',
     location: 'Santiago, Chile',
     image: {
-      src: 'https://placehold.co/100x100.png',
+      src: 'https://imgur.com/wV4VkWx',
       hint: 'smiling man',
     },
     comment: 'Eu não tinha ideia de como começar. Mas o checklist e as estratégias para vender eram o que precisava. Nem estou acreditando que já consegui fazer 18 vendas só hoje devia ter feito mais',
