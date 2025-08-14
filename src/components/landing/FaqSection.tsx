@@ -8,7 +8,7 @@ import {
 const faqs = [
   {
     question: 'Como recebo o Guia da Receita?',
-    answer: 'O acesso ao Guia da Receita e a todos os bônus é 100% digital. Você receberá um e-mail com um link para baixar todo o material imediatamente após a confirmação do pagamento.',
+    answer: 'O acesso ao Guia da Receita e a todos os bônus é 100% digital. Após a confirmação do pagamento, você receberá um e-mail com um link para acessar a área de membros da Hotmart, onde todo o conteúdo estará disponível para você acessar e baixar.',
   },
   {
     question: 'Preciso ter experiência para começar?',
