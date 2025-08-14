@@ -40,7 +40,7 @@ const testimonials = [
     name: 'Rosa Gonzales',
     location: 'Valparaíso, Chile',
     image: {
-      src: 'https://i.imgur.com/wV4VkWx.png',
+      src: 'https://i.imgur.com/EILfZ3x.png',
       hint: 'smiling person',
     },
     comment: 'O bônus das embalagens é maravilhoso. Meus clientes sempre comentam como minhas apresentações são lindas',
