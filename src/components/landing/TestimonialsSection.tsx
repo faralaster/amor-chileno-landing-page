@@ -11,7 +11,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 const testimonials = [
   {
     name: 'Claudia Morales',
-    location: 'São Paulo, Brasil',
+    location: 'Puente Alto, Chile',
     image: {
       src: 'https://placehold.co/100x100.png',
       hint: 'happy woman',
