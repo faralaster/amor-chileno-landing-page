@@ -38,7 +38,7 @@ const testimonials = [
   },
   {
     name: 'Rosa Gonzales',
-    location: 'Salvador, Brasil',
+    location: 'Valparaíso, Chile',
     image: {
       src: 'https://placehold.co/100x100.png',
       hint: 'smiling person',
