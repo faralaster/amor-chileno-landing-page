@@ -9,8 +9,8 @@ export function GuaranteeSection() {
             <Image
               src="https://i.imgur.com/AVqjDE6.png"
               alt="Selo de Garantia de 7 dias"
-              width={300}
-              height={300}
+              width={400}
+              height={400}
               className="rounded-full"
               data-ai-hint="guarantee seal badge"
             />
