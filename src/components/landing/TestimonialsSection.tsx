@@ -43,7 +43,7 @@ const testimonials = [
       src: 'https://placehold.co/100x100.png',
       hint: 'smiling person',
     },
-    comment: 'O melhor bônus é o das embalagens. Meus clientes sempre comentam como minhas apresentações são lindas. Obrigado!',
+    comment: 'O bônus das embalagens é maravilhoso. Meus clientes sempre comentam como minhas apresentações são lindas',
   },
 ];
 
