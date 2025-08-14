@@ -8,7 +8,7 @@ const bonuses = [
     description: 'Um passo a passo para que seu primeiro dia de vendas seja um sucesso total.',
     value: 'R$47',
     image: {
-      src: 'https://placehold.co/400x300.png',
+      src: 'https://i.imgur.com/o20bhpy.png',
       hint: 'checklist document',
     },
   },
