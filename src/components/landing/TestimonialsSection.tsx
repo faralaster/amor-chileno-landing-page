@@ -22,7 +22,7 @@ const testimonials = [
     name: 'Juana Neumann',
     location: 'Santiago, Chile',
     image: {
-      src: 'https://imgur.com/wV4VkWx',
+      src: 'https://i.imgur.com/wV4VkWx.png',
       hint: 'smiling man',
     },
     comment: 'Eu não tinha ideia de como começar. Mas o checklist e as estratégias para vender eram o que precisava. Nem estou acreditando que já consegui fazer 18 vendas só hoje devia ter feito mais',
@@ -40,7 +40,7 @@ const testimonials = [
     name: 'Rosa Gonzales',
     location: 'Valparaíso, Chile',
     image: {
-      src: 'https://imgur.com/wV4VkWx',
+      src: 'https://i.imgur.com/wV4VkWx.png',
       hint: 'smiling person',
     },
     comment: 'O bônus das embalagens é maravilhoso. Meus clientes sempre comentam como minhas apresentações são lindas',
