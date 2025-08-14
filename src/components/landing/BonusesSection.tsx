@@ -35,7 +35,7 @@ const bonuses = [
     description: 'Aprenda a evitar os erros mais comuns que iniciantes cometem e saia na frente da concorrência.',
     value: 'R$27',
     image: {
-      src: 'https://placehold.co/400x300.png',
+      src: 'https://i.imgur.com/BBhWmk5.png',
       hint: 'warning sign',
     },
   },
