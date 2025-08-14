@@ -7,7 +7,7 @@ export function GuaranteeSection() {
         <div className="mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="flex justify-center" data-aos="fade-right">
             <Image
-              src="https://placehold.co/300x300.png"
+              src="https://i.imgur.com/AVqjDE6.png"
               alt="Selo de Garantia de 7 dias"
               width={300}
               height={300}
