@@ -17,7 +17,7 @@ const bonuses = [
     description: 'Ideias criativas para apresentar seus produtos de forma bonita e econômica.',
     value: 'R$27',
     image: {
-      src: 'https://placehold.co/400x300.png',
+      src: 'https://i.imgur.com/crB8wLV.png',
       hint: 'gift packaging',
     },
   },
