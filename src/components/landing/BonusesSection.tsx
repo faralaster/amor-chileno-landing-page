@@ -17,7 +17,7 @@ const bonuses = [
     description: 'Ideas creativas para presentar tus productos de forma bonita y económica.',
     value: '$5000',
     image: {
-      src: 'https://imgur.com/aX84vXM.png',
+      src: 'https://i.imgur.com/aX84vXM.png',
       hint: 'gift packaging',
     },
   },
@@ -53,7 +53,7 @@ const bonuses = [
     description: 'Consejos esenciales para mantener tus fresas de amor frescas y transportarlas con seguridad.',
     value: '$4500',
     image: {
-      src: 'https://imgur.com/31Wyidp.png',
+      src: 'https://i.imgur.com/31Wyidp.png',
       hint: 'delivery box',
     },
   },
