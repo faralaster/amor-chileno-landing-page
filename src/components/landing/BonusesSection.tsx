@@ -4,8 +4,8 @@ import { Badge } from '@/components/ui/badge';
 
 const bonuses = [
   {
-    title: 'Bônus 1: Checklist da Primeira Venda',
-    description: 'Um passo a passo para que seu primeiro dia de vendas seja um sucesso total.',
+    title: 'Bono 1: Checklist de la Primera Venta',
+    description: 'Un paso a paso para que tu primer día de ventas sea un éxito total.',
     value: '$8000',
     image: {
       src: 'https://i.imgur.com/o20bhpy.png',
@@ -13,8 +13,8 @@ const bonuses = [
     },
   },
   {
-    title: 'Bônus 2: Sugestão de Embalagem',
-    description: 'Ideias criativas para apresentar seus produtos de forma bonita e econômica.',
+    title: 'Bono 2: Sugerencia de Empaque',
+    description: 'Ideas creativas para presentar tus productos de forma bonita y económica.',
     value: '$5000',
     image: {
       src: 'https://imgur.com/aX84vXM.png',
@@ -22,8 +22,8 @@ const bonuses = [
     },
   },
   {
-    title: 'Bônus 3: Estratégia para Vender na Rua',
-    description: 'Os segredos para escolher o melhor ponto e atrair clientes em qualquer lugar.',
+    title: 'Bono 3: Estrategia para Vender en la Calle',
+    description: 'Los secretos para elegir el mejor punto y atraer clientes en cualquier lugar.',
     value: '$8000',
     image: {
       src: 'https://i.imgur.com/TbVd03I.png',
@@ -31,8 +31,8 @@ const bonuses = [
     },
   },
   {
-    title: 'Bônus 4: Checklist de Erros Comuns',
-    description: 'Aprenda a evitar os erros mais comuns que iniciantes cometem e saia na frente da concorrência.',
+    title: 'Bono 4: Checklist de Errores Comunes',
+    description: 'Aprende a evitar los errores más comunes que cometen los principiantes y adelántate a la competencia.',
     value: '$6500',
     image: {
       src: 'https://i.imgur.com/BBhWmk5.png',
@@ -40,8 +40,8 @@ const bonuses = [
     },
   },
   {
-    title: 'Bônus 5: Ideias de Promoções',
-    description: 'Estratégias de promoções como "compre X, leve Y" para aumentar o valor do seu ticket médio.',
+    title: 'Bono 5: Ideas de Promociones',
+    description: 'Estrategias de promociones como "compra X, lleva Y" para aumentar el valor de tu ticket promedio.',
     value: '$3000',
     image: {
       src: 'https://i.imgur.com/1fDF9hg.png',
@@ -49,8 +49,8 @@ const bonuses = [
     },
   },
   {
-    title: 'Bônus 6: Conservação e Transporte',
-    description: 'Dicas essenciais para manter seus morangos do amor frescos e transportá-los com segurança.',
+    title: 'Bono 6: Conservación y Transporte',
+    description: 'Consejos esenciales para mantener tus fresas de amor frescas y transportarlas con seguridad.',
     value: '$4500',
     image: {
       src: 'https://imgur.com/31Wyidp.png',
@@ -85,7 +85,7 @@ export function BonusesSection() {
               {bonus.value}
             </span>
           </div>
-          <Badge variant="default" className="text-lg font-bold bg-green-500 hover:bg-green-600">GRÁTIS</Badge>
+          <Badge variant="default" className="text-lg font-bold bg-green-500 hover:bg-green-600">GRATIS</Badge>
         </CardFooter>
       </Card>
     );
@@ -97,10 +97,10 @@ export function BonusesSection() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center" data-aos="fade-up">
           <div className="space-y-2">
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">
-              E não é só isso, receba 6 bônus exclusivos!
+              ¡Y eso no es todo, recibe 6 bonos exclusivos!
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Ao comprar o guia hoje, você também obtém acesso imediato a estes materiais extras sem custo algum.
+              Al comprar la guía hoy, también obtienes acceso inmediato a estos materiales extra sin costo alguno.
             </p>
           </div>
         </div>

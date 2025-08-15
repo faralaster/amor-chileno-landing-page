@@ -4,23 +4,23 @@ import type { SVGProps } from 'react';
 const benefits = [
   {
     icon: (props: SVGProps<SVGSVGElement>) => <DessertIcon {...props} />,
-    title: 'Receitas irresistíveis que encantam',
-    description: 'Aprenda a preparar morangos do amor que conquistam na primeira mordida.',
+    title: 'Recetas irresistibles que encantan',
+    description: 'Aprende a preparar fresas de amor que conquistan al primer mordisco.',
   },
   {
     icon: (props: SVGProps<SVGSVGElement>) => <TrendingUp {...props} />,
-    title: 'Técnicas para aumentar suas vendas',
-    description: 'Domine estratégias de marketing para vender mais e construir uma base de clientes fiéis.',
+    title: 'Técnicas para aumentar tus ventas',
+    description: 'Domina estrategias de marketing para vender más y construir una base de clientes leales.',
   },
   {
     icon: (props: SVGProps<SVGSVGElement>) => <Paintbrush {...props} />,
-    title: 'Decorações fáceis e atraentes',
-    description: 'Transforme seus morangos em verdadeiras obras de arte com decorações simples e impactantes.',
+    title: 'Decoraciones fáciles y atractivas',
+    description: 'Transforma tus fresas en verdaderas obras de arte con decoraciones simples e impactantes.',
   },
   {
     icon: (props: SVGProps<SVGSVGElement>) => <DollarSign {...props} />,
-    title: 'Baixo custo de produção, alto lucro',
-    description: 'Descubra como maximizar seus lucros com um negócio de baixo investimento inicial.',
+    title: 'Bajo costo de producción, alta ganancia',
+    description: 'Descubre cómo maximizar tus ganancias con un negocio de baja inversión inicial.',
   },
 ];
 
@@ -31,13 +31,13 @@ export function BenefitsSection() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center" data-aos="fade-up">
           <div className="space-y-2">
             <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary font-medium">
-              Benefícios Chave
+              Beneficios Clave
             </div>
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">
-              Tudo o que você precisa para ter sucesso
+              Todo lo que necesitas para tener éxito
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Nosso guia está repleto de informações práticas para que você comece a ganhar dinheiro rapidamente.
+              Nuestra guía está llena de información práctica para que comiences a ganar dinero rápidamente.
             </p>
           </div>
         </div>

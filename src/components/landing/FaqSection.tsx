@@ -7,20 +7,20 @@ import {
 
 const faqs = [
   {
-    question: 'Como recebo o Guia da Receita?',
-    answer: 'O acesso ao Guia da Receita e a todos os bônus é 100% digital. Após a confirmação do pagamento, você receberá um e-mail com um link para acessar a área de membros da Hotmart, onde todo o conteúdo estará disponível para você acessar e baixar.',
+    question: '¿Cómo recibo la Guía de Recetas?',
+    answer: 'El acceso a la Guía de Recetas y a todos los bonos es 100% digital. Después de confirmar el pago, recibirás un correo electrónico con un enlace para acceder al área de miembros de Hotmart, donde todo el contenido estará disponible para que accedas y descargues.',
   },
   {
-    question: 'Preciso ter experiência para começar?',
-    answer: 'Absolutamente não! Nosso guia foi projetado tanto para iniciantes quanto para aqueles que já têm alguma experiência. Nós o guiamos passo a passo, do básico às técnicas mais avançadas.',
+    question: '¿Necesito tener experiencia para empezar?',
+    answer: '¡Absolutamente no! Nuestra guía fue diseñada tanto para principiantes como para aquellos que ya tienen alguna experiencia. Te guiamos paso a paso, desde lo básico hasta las técnicas más avanzadas.',
   },
   {
-    question: 'Quanto tempo leva para fazer o morango do amor?',
-    answer: 'O tempo de preparo pode variar, mas, em média, você pode ter uma remessa pronta em menos de 1 hora. O guia inclui dicas para otimizar seu tempo de produção.',
+    question: '¿Cuánto tiempo se tarda en hacer la fresa de amor?',
+    answer: 'El tiempo de preparación puede variar, pero en promedio, puedes tener un lote listo en menos de 1 hora. La guía incluye consejos para optimizar tu tiempo de producción.',
   },
   {
-    question: 'Preciso de equipamentos caros?',
-    answer: 'Não, de forma alguma. Você pode começar com utensílios de cozinha básicos que provavelmente já tem em casa. O guia inclui uma lista de tudo que você precisa, com opções econômicas.',
+    question: '¿Necesito equipos caros?',
+    answer: 'No, en absoluto. Puedes empezar con utensilios de cocina básicos que probablemente ya tienes en casa. La guía incluye una lista de todo lo que necesitas, con opciones económicas.',
   },
 ];
 
@@ -30,10 +30,10 @@ export function FaqSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center" data-aos="fade-up">
             <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl">
-            Perguntas Frequentes
+            Preguntas Frecuentes
             </h2>
             <p className="mt-4 text-muted-foreground md:text-xl/relaxed">
-            Ainda tem dúvidas? Aqui respondemos às perguntas mais comuns.
+            ¿Aún tienes dudas? Aquí respondemos a las preguntas más comunes.
             </p>
         </div>
         <div className="mx-auto max-w-3xl pt-10" data-aos="fade-up" data-aos-delay="200">

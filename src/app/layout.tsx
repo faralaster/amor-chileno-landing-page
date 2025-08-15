@@ -5,8 +5,8 @@ import 'aos/dist/aos.css';
 import { AOSInit } from '@/components/AOSInit';
 
 export const metadata: Metadata = {
-  title: 'Amor Chileno',
-  description: 'Guia Lucrativo para o Amor por Morango Chileno',
+  title: 'Fresa Amor Chileno',
+  description: 'Guía Lucrativa para el Amor por la Fresa Chilena',
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="es-CL">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

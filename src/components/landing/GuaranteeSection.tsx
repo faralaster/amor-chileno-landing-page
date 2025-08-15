@@ -8,7 +8,7 @@ export function GuaranteeSection() {
           <div className="flex justify-center" data-aos="fade-right">
             <Image
               src="https://i.imgur.com/LDf1OCI.png"
-              alt="Selo de Garantia de 7 dias"
+              alt="Sello de Garantía de 7 días"
               width={600}
               height={600}
               className="rounded-full"
@@ -17,13 +17,13 @@ export function GuaranteeSection() {
           </div>
           <div className="space-y-4 text-center md:text-left" data-aos="fade-left">
             <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl">
-              Sua compra é 100% segura!
+              ¡Tu compra es 100% segura!
             </h2>
             <p className="text-2xl font-semibold text-primary">
-              Garantia Incondicional de 7 Dias
+              Garantía Incondicional de 7 Días
             </p>
             <p className="text-muted-foreground md:text-lg">
-              Você tem 7 dias completos para explorar o guia. Se por qualquer motivo sentir que não é para você, basta nos enviar um e-mail e devolveremos 100% do seu dinheiro. Sem perguntas, sem complicações. Risco zero!
+              Tienes 7 días completos para explorar la guía. Si por cualquier motivo sientes que no es para ti, solo envíanos un correo y te devolveremos el 100% de tu dinero. Sin preguntas, sin complicaciones. ¡Riesgo cero!
             </p>
           </div>
         </div>

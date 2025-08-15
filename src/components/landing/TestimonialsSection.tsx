@@ -16,7 +16,7 @@ const testimonials = [
       src: 'https://i.imgur.com/7qU0hPG.png',
       hint: 'happy woman',
     },
-    comment: 'O guia é incrível! Comecei a vender no meu condomínio e já recuperei o investimento na primeira semana. Os Morango do Amor Chileno são um sucesso, estou sem acreditar até agora quanto to faturando só essa semana',
+    comment: '¡La guía es increíble! Empecé a vender en mi condominio y ya recuperé la inversión en la primera semana. Las Fresas de Amor Chilenas son un éxito, todavía no puedo creer cuánto estoy ganando solo esta semana.',
   },
   {
     name: 'Juana Neumann',
@@ -25,7 +25,7 @@ const testimonials = [
       src: 'https://i.imgur.com/wV4VkWx.png',
       hint: 'smiling man',
     },
-    comment: 'Eu não tinha ideia de como começar. Mas o checklist e as estratégias para vender eram o que precisava. Nem estou acreditando que já consegui fazer 18 vendas só hoje devia ter feito mais',
+    comment: 'No tenía idea de cómo empezar. Pero el checklist y las estrategias para vender eran lo que necesitaba. Ni siquiera puedo creer que ya he logrado hacer 18 ventas solo hoy, debería haber hecho más.',
   },
   {
     name: 'Jose Chaparro',
@@ -34,7 +34,7 @@ const testimonials = [
       src: 'https://i.imgur.com/O5hRHiU.png',
       hint: 'happy person',
     },
-    comment: 'Pensei que seria difícil, mas o passo a passo é muito claro. Meus morangos ficaram incriveis ja to com 8 encomendas para agora a tarde, muito obrigado',
+    comment: 'Pensé que sería difícil, pero el paso a paso es muy claro. Mis fresas quedaron increíbles, ya tengo 8 pedidos para esta tarde, muchas gracias.',
   },
   {
     name: 'Rosa Gonzales',
@@ -43,7 +43,7 @@ const testimonials = [
       src: 'https://i.imgur.com/EILfZ3x.png',
       hint: 'smiling person',
     },
-    comment: 'O bônus das embalagens é maravilhoso. Meus clientes sempre comentam como minhas apresentações são lindas',
+    comment: 'El bono de los empaques es maravilloso. Mis clientes siempre comentan lo lindas que son mis presentaciones.',
   },
 ];
 
@@ -53,13 +53,13 @@ export function TestimonialsSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center" data-aos="fade-up">
             <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary font-medium">
-                Prova Social
+                Prueba Social
             </div>
             <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-5xl">
-            O que dizem nossos empreendedores
+            Lo que dicen nuestros emprendedores
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Pessoas como você já estão tendo sucesso com nosso método.
+            Personas como tú ya están teniendo éxito con nuestro método.
             </p>
         </div>
         <div className="py-12" data-aos="fade-up" data-aos-delay="200">

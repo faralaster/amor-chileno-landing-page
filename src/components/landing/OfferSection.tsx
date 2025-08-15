@@ -4,23 +4,23 @@ import { Progress } from '@/components/ui/progress';
 import { CheckCircle } from 'lucide-react';
 
 const completePackageIncludes = [
-  'Video Aula da Receita Morango do Amor Chilena',
-  'Guia Lucrativo do morango do Amor Chilena',
-  'BÔNUS 1 – Checklist da Primeira Venda',
-  'BÔNUS 2 – Sugestão de Embalagem Bonita e Barata',
-  'BÔNUS 3 – Estratégia para Vender na Rua',
-  'BÔNUS 4 – Checklist de Erros Comuns e Como Evitar',
-  'BÔNUS 5 – Ideias de Promoções',
-  'BÔNUS 6 – Guia Rápido de Conservação e Transporte',
-  'Garantia de 30 dias',
-  'Acesso vitalício',
+  'Video Clase de la Receta Fresa de Amor Chilena',
+  'Guía Lucrativa de la Fresa de Amor Chilena',
+  'BONO 1 – Checklist de la Primera Venta',
+  'BONO 2 – Sugerencia de Empaque Bonito y Barato',
+  'BONO 3 – Estrategia para Vender en la Calle',
+  'BONO 4 – Checklist de Errores Comunes y Cómo Evitarlos',
+  'BONO 5 – Ideas de Promociones',
+  'BONO 6 – Guía Rápida de Conservación y Transporte',
+  'Garantía de 30 días',
+  'Acceso vitalicio',
 ];
 
 const simplePackageIncludes = [
-    "Guia Lucrativo da Fresa do Amor Chilena",
-    "BÔNUS 1 – Checklist da Primeira Venda",
-    "Garantia de 30 dias",
-    "Acesso por 6 meses",
+    "Guía Lucrativa de la Fresa de Amor Chilena",
+    "BONO 1 – Checklist de la Primera Venta",
+    "Garantía de 30 días",
+    "Acceso por 6 meses",
 ]
 
 
@@ -30,23 +30,23 @@ export function OfferSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="space-y-3 text-center mb-12" data-aos="fade-up">
             <h2 className="text-4xl font-bold font-headline tracking-tighter text-white sm:text-5xl md:text-6xl">
-            Oferta especial por tempo limitado!
+            ¡Oferta especial por tiempo limitado!
             </h2>
             <p className="mx-auto max-w-[600px] text-white/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Não perca a oportunidade de iniciar seu próprio negócio de sucesso.
+            No pierdas la oportunidad de iniciar tu propio negocio de éxito.
             </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start max-w-5xl mx-auto">
           {/* Pacote Completo */}
           <Card className="shadow-2xl border-4 border-pink-500 relative overflow-visible rounded-3xl" data-aos="fade-up" data-aos-delay="100">
             <div className="absolute -top-4 right-6 bg-pink-500 text-white px-4 py-1 rounded-md text-sm font-bold">
-              MAIS POPULAR
+              MÁS POPULAR
             </div>
             <CardHeader className="text-center pt-8">
-              <CardTitle className="font-headline text-3xl">Pacote Completo: Super OFERTA</CardTitle>
+              <CardTitle className="font-headline text-3xl">Paquete Completo: Súper OFERTA</CardTitle>
               <p className="text-destructive line-through text-xl">De $ 37000</p>
               <p className="text-5xl font-bold text-primary font-headline">$ 6500</p>
-              <CardDescription>Experiência completa</CardDescription>
+              <CardDescription>Experiencia completa</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <ul className="grid gap-3 text-left text-muted-foreground">
@@ -58,15 +58,15 @@ export function OfferSection() {
                 ))}
               </ul>
               <div className="w-full h-12 flex items-center justify-center rounded-md text-lg font-bold bg-red-600 text-white">
-                ÚLTIMAS VAGAS COM DESCONTO!
+                ¡ÚLTIMOS CUPOS CON DESCUENTO!
               </div>
               <div className="space-y-2 text-center">
-                <p className="text-sm font-medium">Vagas Preenchidas: <span className="float-right">95%</span></p>
+                <p className="text-sm font-medium">Cupos Llenos: <span className="float-right">95%</span></p>
                 <Progress value={95} className="h-4 bg-green-200" />
-                <p className="text-sm text-muted-foreground">11 vagas restantes</p>
+                <p className="text-sm text-muted-foreground">11 cupos restantes</p>
               </div>
               <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-500 text-white hover:bg-green-600 shadow-lg transform hover:scale-105 transition-transform duration-300 border-b-4 border-green-700 active:translate-y-1 active:border-b-0 rounded-full">
-                Sim! Quero essa SUPER OFERTA!
+                ¡Sí! ¡Quiero esta SÚPER OFERTA!
               </Button>
             </CardContent>
           </Card>
@@ -74,9 +74,9 @@ export function OfferSection() {
           {/* Pacote Simples */}
           <Card className="shadow-lg bg-white/90" data-aos="fade-up" data-aos-delay="200">
             <CardHeader className="text-center">
-              <CardTitle className="font-headline text-3xl">Pacote Simples</CardTitle>
+              <CardTitle className="font-headline text-3xl">Paquete Simple</CardTitle>
                <p className="text-5xl font-bold text-primary font-headline">$ 4000</p>
-              <CardDescription>Para começar</CardDescription>
+              <CardDescription>Para empezar</CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
               <ul className="grid gap-3 text-left text-muted-foreground">
@@ -88,7 +88,7 @@ export function OfferSection() {
                 ))}
               </ul>
               <Button size="lg" variant="secondary" className="w-full h-12 text-lg font-bold bg-gray-400 hover:bg-gray-500 text-white cursor-not-allowed rounded-md">
-                Quero essa Opção!
+                ¡Quiero esta Opción!
               </Button>
             </CardContent>
           </Card>

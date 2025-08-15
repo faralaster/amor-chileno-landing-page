@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 
 export function LocationText() {
-  const [city, setCity] = useState('sua cidade');
+  const [city, setCity] = useState('tu ciudad');
 
   useEffect(() => {
     fetch("https://ipapi.co/json/")
@@ -20,7 +20,7 @@ export function LocationText() {
 
   return (
     <p className="text-white text-lg font-semibold" style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)' }} data-aos="fade-up" data-aos-delay="100">
-      Aprenda a vender Morango do Amor hoje mesmo na Região proximas a cidade de {city}
+      Aprende a vender Fresa de Amor hoy mismo en la Región cercanas a la ciudad de {city}
     </p>
   );
 }
