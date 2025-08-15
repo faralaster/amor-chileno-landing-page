@@ -33,7 +33,7 @@ const bonuses = [
   {
     title: 'Bônus 4: Checklist de Erros Comuns',
     description: 'Aprenda a evitar os erros mais comuns que iniciantes cometem e saia na frente da concorrência.',
-    value: 'R$27',
+    value: '$6500',
     image: {
       src: 'https://i.imgur.com/BBhWmk5.png',
       hint: 'warning sign',
