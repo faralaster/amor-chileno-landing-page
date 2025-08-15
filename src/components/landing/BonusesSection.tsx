@@ -51,9 +51,9 @@ const bonuses = [
   {
     title: 'Bônus 6: Conservação e Transporte',
     description: 'Dicas essenciais para manter seus morangos do amor frescos e transportá-los com segurança.',
-    value: 'R$17',
+    value: '$4500',
     image: {
-      src: 'https://i.imgur.com/31Wyidp.png',
+      src: 'https://imgur.com/31Wyidp.png',
       hint: 'delivery box',
     },
   },
