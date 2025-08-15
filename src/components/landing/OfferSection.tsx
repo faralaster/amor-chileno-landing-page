@@ -28,7 +28,7 @@ export function OfferSection() {
   return (
     <section id="offer" className="w-full py-12 md:py-16 lg:py-20 bg-gradient-to-br from-secondary to-accent">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="space-y-3 text-center mb-12" data-aos="fade-up">
+        <div className="space-y-3 text-center mb-12">
             <h2 className="text-4xl font-bold font-headline tracking-tighter text-white sm:text-5xl md:text-6xl">
             ¡Oferta especial por tiempo limitado!
             </h2>
@@ -38,7 +38,7 @@ export function OfferSection() {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start max-w-5xl mx-auto">
           {/* Pacote Completo */}
-          <Card className="shadow-2xl border-4 border-pink-500 relative overflow-visible rounded-3xl" data-aos="fade-up" data-aos-delay="100">
+          <Card className="shadow-2xl border-4 border-pink-500 relative overflow-visible rounded-3xl">
             <div className="absolute -top-4 right-6 bg-pink-500 text-white px-4 py-1 rounded-md text-sm font-bold">
               MÁS POPULAR
             </div>
@@ -72,7 +72,7 @@ export function OfferSection() {
           </Card>
 
           {/* Pacote Simples */}
-          <Card className="shadow-lg bg-white/90" data-aos="fade-up" data-aos-delay="200">
+          <Card className="shadow-lg bg-white/90">
             <CardHeader className="text-center">
               <CardTitle className="font-headline text-3xl">Paquete Simple</CardTitle>
                <p className="text-5xl font-bold text-primary font-headline">$ 4000</p>

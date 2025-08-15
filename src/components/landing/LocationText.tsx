@@ -19,7 +19,7 @@ export function LocationText() {
   }, []);
 
   return (
-    <p className="text-white text-lg font-semibold" style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)' }} data-aos="fade-up" data-aos-delay="100">
+    <p className="text-white text-lg font-semibold" style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)' }}>
       Aprende a vender Fresa de Amor hoy mismo en la Región cercanas a la ciudad de {city}
     </p>
   );

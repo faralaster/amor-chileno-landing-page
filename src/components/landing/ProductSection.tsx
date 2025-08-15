@@ -7,7 +7,7 @@ export function ProductSection() {
     <section id="product" className="w-full py-12 md:py-16 lg:py-20 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-10 md:grid-cols-2 md:gap-16 items-center">
-          <div className="space-y-4" data-aos="fade-up">
+          <div className="space-y-4">
             <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm font-medium">
               La Guía Definitiva
             </div>
@@ -26,7 +26,7 @@ export function ProductSection() {
                </a>
             </div>
           </div>
-          <div className="flex flex-col items-center gap-4" data-aos="fade-up" data-aos-delay="200">
+          <div className="flex flex-col items-center gap-4">
             <Image
               src="https://i.imgur.com/SfyaDLN.png"
               width="600"

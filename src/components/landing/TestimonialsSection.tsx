@@ -51,7 +51,7 @@ export function TestimonialsSection() {
   return (
     <section id="testimonials" className="w-full py-12 md:py-16 lg:py-20 bg-background">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-4 text-center" data-aos="fade-up">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary font-medium">
                 Prueba Social
             </div>
@@ -62,7 +62,7 @@ export function TestimonialsSection() {
             Personas como tú ya están teniendo éxito con nuestro método.
             </p>
         </div>
-        <div className="py-12" data-aos="fade-up" data-aos-delay="200">
+        <div className="py-12">
           <Carousel
             opts={{
               align: 'start',

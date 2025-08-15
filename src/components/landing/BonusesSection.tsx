@@ -62,7 +62,7 @@ const bonuses = [
 export function BonusesSection() {
   const getBonusCard = (bonus: typeof bonuses[0], index: number) => {
     return (
-      <Card key={bonus.title} className="flex flex-col overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 w-[280px] h-[400px]" data-aos="fade-up" data-aos-delay={index * 100}>
+      <Card key={bonus.title} className="flex flex-col overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 w-[280px] h-[400px]">
         <CardHeader>
           <CardTitle className="font-headline text-xl h-12">{bonus.title}</CardTitle>
         </CardHeader>
@@ -94,7 +94,7 @@ export function BonusesSection() {
   return (
     <section id="bonuses" className="w-full py-12 md:py-16 lg:py-20 bg-background">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-4 text-center" data-aos="fade-up">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-headline font-bold tracking-tighter sm:text-5xl">
               ¡Y eso no es todo, recibe 6 bonos exclusivos!

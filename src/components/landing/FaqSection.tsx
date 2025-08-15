@@ -28,7 +28,7 @@ export function FaqSection() {
   return (
     <section id="faq" className="w-full py-12 md:py-16 lg:py-20 bg-muted">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="mx-auto max-w-3xl text-center" data-aos="fade-up">
+        <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl">
             Preguntas Frecuentes
             </h2>
@@ -36,7 +36,7 @@ export function FaqSection() {
             ¿Aún tienes dudas? Aquí respondemos a las preguntas más comunes.
             </p>
         </div>
-        <div className="mx-auto max-w-3xl pt-10" data-aos="fade-up" data-aos-delay="200">
+        <div className="mx-auto max-w-3xl pt-10">
           <Accordion type="single" collapsible className="w-full">
             {faqs.map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`}>
