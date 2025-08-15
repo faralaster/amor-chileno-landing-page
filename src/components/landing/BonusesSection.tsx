@@ -15,7 +15,7 @@ const bonuses = [
   {
     title: 'Bônus 2: Sugestão de Embalagem',
     description: 'Ideias criativas para apresentar seus produtos de forma bonita e econômica.',
-    value: 'R$27',
+    value: '$5000',
     image: {
       src: 'https://imgur.com/aX84vXM.png',
       hint: 'gift packaging',
