@@ -42,7 +42,7 @@ const bonuses = [
   {
     title: 'Bônus 5: Ideias de Promoções',
     description: 'Estratégias de promoções como "compre X, leve Y" para aumentar o valor do seu ticket médio.',
-    value: 'R$47',
+    value: '$3000',
     image: {
       src: 'https://i.imgur.com/1fDF9hg.png',
       hint: 'promotional sale tag',
