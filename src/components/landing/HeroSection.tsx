@@ -23,8 +23,8 @@ export function HeroSection() {
                   src="https://imgur.com/JgjDPlu.png"
                   alt="eBook Guía Lucrativa para la Fresa de Amor"
                   width={700}
-                  height={430}
-                  className="shadow-2xl aspect-[700/430] object-cover border-8 border-white/50 rounded-xl"
+                  height={400}
+                  className="shadow-2xl aspect-[700/400] object-cover border-8 border-white/50 rounded-xl"
                   priority
                   data-ai-hint="strawberry chocolate dessert"
                   />
