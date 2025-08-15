@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { ProductCountdown } from '@/components/landing/ProductCountdown';
 
 export function ProductSection() {
   return (
@@ -37,7 +36,6 @@ export function ProductSection() {
               priority
             />
             <div className="text-center p-6 bg-muted rounded-xl w-full relative">
-                <ProductCountdown />
                 <p className="text-lg font-medium text-muted-foreground">Oferta por Tiempo Limitado</p>
                 <p className="text-4xl font-bold font-headline text-primary">
                     <span className="text-2xl text-destructive line-through decoration-2 mr-2">$ 37000</span>
