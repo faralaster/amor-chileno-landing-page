@@ -32,8 +32,9 @@ export function ProductSection() {
               width="600"
               height="600"
               alt="Mockup del eBook y los bonos"
-              className="mx-auto aspect-[1/1] overflow-hidden rounded-xl object-cover object-center sm:w-full"
+              className="mx-auto aspect-[1/1] overflow-hidden rounded-xl object-contain object-center sm:w-full"
               data-ai-hint="ebook mockup spread"
+              priority
             />
             <div className="text-center p-6 bg-muted rounded-xl w-full relative">
                 <ProductCountdown />
