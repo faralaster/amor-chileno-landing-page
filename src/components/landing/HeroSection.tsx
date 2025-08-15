@@ -20,7 +20,7 @@ export function HeroSection() {
             </div>
             <div className="py-4">
                   <Image
-                  src="https://placehold.co/700x430.png"
+                  src="https://imgur.com/JgjDPlu.png"
                   alt="eBook Guía Lucrativa para la Fresa de Amor"
                   width={700}
                   height={430}
