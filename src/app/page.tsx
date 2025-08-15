@@ -1,12 +1,15 @@
-import { BenefitsSection } from '@/components/landing/BenefitsSection';
-import { BonusesSection } from '@/components/landing/BonusesSection';
-import { FaqSection } from '@/components/landing/FaqSection';
-import { Footer } from '@/components/landing/Footer';
-import { GuaranteeSection } from '@/components/landing/GuaranteeSection';
+import dynamic from 'next/dynamic';
 import { HeroSection } from '@/components/landing/HeroSection';
-import { OfferSection } from '@/components/landing/OfferSection';
-import { ProductSection } from '@/components/landing/ProductSection';
-import { TestimonialsSection } from '@/components/landing/TestimonialsSection';
+
+const ProductSection = dynamic(() => import('@/components/landing/ProductSection').then(mod => mod.ProductSection));
+const BenefitsSection = dynamic(() => import('@/components/landing/BenefitsSection').then(mod => mod.BenefitsSection));
+const BonusesSection = dynamic(() => import('@/components/landing/BonusesSection').then(mod => mod.BonusesSection));
+const TestimonialsSection = dynamic(() => import('@/components/landing/TestimonialsSection').then(mod => mod.TestimonialsSection));
+const OfferSection = dynamic(() => import('@/components/landing/OfferSection').then(mod => mod.OfferSection));
+const GuaranteeSection = dynamic(() => import('@/components/landing/GuaranteeSection').then(mod => mod.GuaranteeSection));
+const FaqSection = dynamic(() => import('@/components/landing/FaqSection').then(mod => mod.FaqSection));
+const Footer = dynamic(() => import('@/components/landing/Footer').then(mod => mod.Footer));
+
 
 export default function Home() {
   return (
