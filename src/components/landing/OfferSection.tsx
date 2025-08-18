@@ -87,9 +87,11 @@ export function OfferSection() {
                   </li>
                 ))}
               </ul>
-              <Button size="lg" variant="secondary" className="w-full h-12 text-lg font-bold bg-gray-400 hover:bg-gray-500 text-white cursor-not-allowed rounded-md">
-                ¡Quiero esta Opción!
-              </Button>
+              <a href="https://pay.hotmart.com/L101291353O">
+                <Button size="lg" variant="secondary" className="w-full h-12 text-lg font-bold rounded-md">
+                  ¡Quiero esta Opción!
+                </Button>
+              </a>
             </CardContent>
           </Card>
         </div>
