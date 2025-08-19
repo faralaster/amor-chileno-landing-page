@@ -27,7 +27,7 @@ export function ProductSection() {
           </div>
           <div className="flex flex-col items-center gap-4">
             <Image
-              src="https://i.imgur.com/gK2T3gQ.png"
+              src="https://imgur.com/sJPq3QO.png"
               width="600"
               height="600"
               alt="Mockup del eBook y los bonos"
