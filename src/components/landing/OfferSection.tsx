@@ -75,7 +75,7 @@ export function OfferSection() {
           <Card className="shadow-lg bg-white/90">
             <CardHeader className="text-center">
               <CardTitle className="font-headline text-3xl">Paquete Simple</CardTitle>
-               <p className="text-5xl font-bold text-primary font-headline">$ 4000</p>
+               <p className="text-5xl font-bold text-primary font-headline">$ 4500</p>
               <CardDescription>Para empezar</CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
