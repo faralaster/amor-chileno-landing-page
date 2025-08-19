@@ -11,7 +11,7 @@ export function ProductSection() {
               La Guía Definitiva
             </div>
             <h2 className="text-3xl font-bold font-headline tracking-tighter sm:text-4xl md:text-5xl">
-              ¿Qué es la "Guía Lucrativa para la Fresa de Amor Chilena"?
+              ¿Qué es la "Guía rentable del Fresa del Amor chileno?"
             </h2>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
               Es un contenido completo que enseña, paso a paso, todo lo que necesitas saber para crear y vender fresas de amor irresistibles. Desde las recetas secretas hasta las estrategias de venta más eficaces, esta guía es tu atajo hacia el éxito.
