@@ -4,8 +4,8 @@ import { Toaster } from "@/components/ui/toaster"
 import Script from 'next/script';
 
 export const metadata: Metadata = {
-  title: 'Fresa Amor Chileno',
-  description: 'Guía Lucrativa para el Amor por la Fresa Chilena',
+  title: 'Frutilla Amor Chileno',
+  description: 'Guía Lucrativa para el Amor por la Frutilla Chilena',
 };
 
 export default function RootLayout({

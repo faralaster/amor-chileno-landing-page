@@ -15,13 +15,13 @@ export function HeroSection() {
                 El Dulce Que <span className="font-extrabold text-yellow-300">Se Hizo Viral En Brasil</span> Recientemente y Puede Hacerte <span className="font-extrabold text-yellow-300">El Primero en Lucrar</span> Con Él <br /> En <span className="font-extrabold text-yellow-300">Chile</span>
               </h1>
               <p className="max-w-4xl mx-auto text-lg text-white/95 md:text-xl">
-                Descubre la receta secreta de la 'Fresa de Amor' que se convirtió en fiebre en Brasil + el método exacto para ser la primera en vender en Chile y dominar este mercado inexplorado antes de que todos lo descubran.
+                Descubre la receta secreta de la 'Frutilla de Amor' que se convirtió en fiebre en Brasil + el método exacto para ser la primera en vender en Chile y dominar este mercado inexplorado antes de que todos lo descubran.
               </p>
             </div>
             <div className="py-4">
                   <Image
                   src="https://imgur.com/JgjDPlu.png"
-                  alt="eBook Guía Lucrativa para la Fresa de Amor"
+                  alt="eBook Guía Lucrativa para la Frutilla de Amor"
                   width={700}
                   height={400}
                   className="shadow-2xl aspect-[700/400] object-cover border-8 border-white/50 rounded-xl"

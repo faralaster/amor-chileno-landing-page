@@ -15,7 +15,7 @@ const faqs = [
     answer: '¡Absolutamente no! Nuestra guía fue diseñada tanto para principiantes como para aquellos que ya tienen alguna experiencia. Te guiamos paso a paso, desde lo básico hasta las técnicas más avanzadas.',
   },
   {
-    question: '¿Cuánto tiempo se tarda en hacer la fresa de amor?',
+    question: '¿Cuánto tiempo se tarda en hacer la frutilla de amor?',
     answer: 'El tiempo de preparación puede variar, pero en promedio, puedes tener un lote listo en menos de 1 hora. La guía incluye consejos para optimizar tu tiempo de producción.',
   },
   {

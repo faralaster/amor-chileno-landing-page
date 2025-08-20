@@ -4,8 +4,8 @@ import { Progress } from '@/components/ui/progress';
 import { CheckCircle } from 'lucide-react';
 
 const completePackageIncludes = [
-  'Video Clase de la Receta Fresa de Amor Chilena',
-  'Guía Lucrativa de la Fresa de Amor Chilena',
+  'Video Clase de la Receta Frutilla de Amor Chilena',
+  'Guía Lucrativa de la Frutilla de Amor Chilena',
   'BONO 1 – Checklist de la Primera Venta',
   'BONO 2 – Sugerencia de Empaque Bonito y Barato',
   'BONO 3 – Estrategia para Vender en la Calle',
@@ -17,7 +17,7 @@ const completePackageIncludes = [
 ];
 
 const simplePackageIncludes = [
-    "Guía Lucrativa de la Fresa de Amor Chilena",
+    "Guía Lucrativa de la Frutilla de Amor Chilena",
     "BONO 1 – Checklist de la Primera Venta",
     "Garantía de 30 días",
     "Acceso por 6 meses",

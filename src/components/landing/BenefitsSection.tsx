@@ -5,7 +5,7 @@ const benefits = [
   {
     icon: (props: SVGProps<SVGSVGElement>) => <DessertIcon {...props} />,
     title: 'Recetas irresistibles que encantan',
-    description: 'Aprende a preparar fresas de amor que conquistan al primer mordisco.',
+    description: 'Aprende a preparar frutillas de amor que conquistan al primer mordisco.',
   },
   {
     icon: (props: SVGProps<SVGSVGElement>) => <TrendingUp {...props} />,
@@ -15,7 +15,7 @@ const benefits = [
   {
     icon: (props: SVGProps<SVGSVGElement>) => <Paintbrush {...props} />,
     title: 'Decoraciones fáciles y atractivas',
-    description: 'Transforma tus fresas en verdaderas obras de arte con decoraciones simples e impactantes.',
+    description: 'Transforma tus frutillas en verdaderas obras de arte con decoraciones simples e impactantes.',
   },
   {
     icon: (props: SVGProps<SVGSVGElement>) => <DollarSign {...props} />,

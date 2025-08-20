@@ -16,7 +16,7 @@ const testimonials = [
       src: 'https://i.imgur.com/7qU0hPG.png',
       hint: 'happy woman',
     },
-    comment: '¡La guía es increíble! Empecé a vender en mi condominio y ya recuperé la inversión en la primera semana. Las Fresas de Amor Chilenas son un éxito, todavía no puedo creer cuánto estoy ganando solo esta semana.',
+    comment: '¡La guía es increíble! Empecé a vender en mi condominio y ya recuperé la inversión en la primera semana. Las Frutillas de Amor Chilenas son un éxito, todavía no puedo creer cuánto estoy ganando solo esta semana.',
   },
   {
     name: 'Juana Neumann',
@@ -34,7 +34,7 @@ const testimonials = [
       src: 'https://i.imgur.com/O5hRHiU.png',
       hint: 'happy person',
     },
-    comment: 'Pensé que sería difícil, pero el paso a paso es muy claro. Mis fresas quedaron increíbles, ya tengo 8 pedidos para esta tarde, muchas gracias.',
+    comment: 'Pensé que sería difícil, pero el paso a paso es muy claro. Mis frutillas quedaron increíbles, ya tengo 8 pedidos para esta tarde, muchas gracias.',
   },
   {
     name: 'Rosa Gonzales',

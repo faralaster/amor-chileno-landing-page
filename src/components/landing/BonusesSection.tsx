@@ -50,7 +50,7 @@ const bonuses = [
   },
   {
     title: 'Bono 6: Conservación y Transporte',
-    description: 'Consejos esenciales para mantener tus fresas de amor frescas y transportarlas con seguridad.',
+    description: 'Consejos esenciales para mantener tus frutillas de amor frescas y transportarlas con seguridad.',
     value: '$4500',
     image: {
       src: 'https://i.imgur.com/31Wyidp.png',
