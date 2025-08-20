@@ -65,9 +65,11 @@ export function OfferSection() {
                 <Progress value={95} className="h-4 bg-green-200" />
                 <p className="text-sm text-muted-foreground">11 cupos restantes</p>
               </div>
-              <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-500 text-white hover:bg-green-600 shadow-lg transform hover:scale-105 transition-transform duration-300 border-b-4 border-green-700 active:translate-y-1 active:border-b-0 rounded-full">
-                ¡Sí! ¡Quiero esta SÚPER OFERTA!
-              </Button>
+              <a href="https://pay.hotmart.com/J101456109W">
+                <Button size="lg" className="w-full h-14 text-xl font-bold bg-green-500 text-white hover:bg-green-600 shadow-lg transform hover:scale-105 transition-transform duration-300 border-b-4 border-green-700 active:translate-y-1 active:border-b-0 rounded-full">
+                  ¡Sí! ¡Quiero esta SÚPER OFERTA!
+                </Button>
+              </a>
             </CardContent>
           </Card>
 
