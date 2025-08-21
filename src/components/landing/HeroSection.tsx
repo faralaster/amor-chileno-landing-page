@@ -18,16 +18,16 @@ export function HeroSection() {
                 Descubre la receta secreta de la 'Frutilla de Amor' que se convirtió en fiebre en Brasil + el método exacto para ser la primera en vender en Chile y dominar este mercado inexplorado antes de que todos lo descubran.
               </p>
             </div>
-            <div className="py-4">
-                  <Image
-                  src="https://imgur.com/JgjDPlu.png"
-                  alt="eBook Guía Lucrativa para la Frutilla de Amor"
-                  width={700}
-                  height={400}
-                  className="shadow-2xl aspect-[700/400] object-cover border-8 border-white/50 rounded-xl"
-                  priority
-                  data-ai-hint="strawberry chocolate dessert"
-                  />
+            <div className="py-4 w-full max-w-4xl aspect-video">
+                  <iframe
+                    className="w-full h-full rounded-xl border-8 border-white/50 shadow-2xl"
+                    src="https://www.youtube.com/embed/cXljxRh3HkM?si=ChL_Fq-a-_8Gzq9m"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                  ></iframe>
             </div>
             <LocationText />
             <div className="w-full flex justify-center pt-4">
