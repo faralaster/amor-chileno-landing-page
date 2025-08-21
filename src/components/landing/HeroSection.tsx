@@ -18,7 +18,7 @@ export function HeroSection() {
                 Descubre la receta secreta de la 'Frutilla de Amor' que se convirtió en fiebre en Brasil + el método exacto para ser la primera en vender en Chile y dominar este mercado inexplorado antes de que todos lo descubran.
               </p>
             </div>
-            <div className="py-4 w-full max-w-4xl aspect-video">
+            <div className="py-4 w-full max-w-3xl aspect-video">
                   <iframe
                     className="w-full h-full rounded-xl border-8 border-white/50 shadow-2xl"
                     src="https://www.youtube.com/embed/cXljxRh3HkM?si=ChL_Fq-a-_8Gzq9m"
